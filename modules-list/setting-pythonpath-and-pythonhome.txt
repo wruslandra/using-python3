@@ -1,0 +1,29 @@
+https://stackoverflow.com/questions/65670259/every-python-related-executable-broken-fatal-python-error-init-import-size-f
+
+While trying to find the problem, I soon realized that it was not special to my command. In fact, all python-related executables produce the same error when invoked from any command prompt, no matter where I am in my filesystem. python, python3, anaconda (and its prompt), conda, pip, pip3, ... All of these suddenly don't work anymore. They all fail with the same error message, only the thread is altering.
+
+In my research I found a very similar error very often, but it was about the encodings module. Also I haven't read about issues where the entire python ecosystem just broke.
+
+Solutions to said similar error seem to include doing something with the PYTHONPATH and PYTHONHOME envs if they exist. But I don't have them, neither as user variable nor as system var.
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ echo $PYTHONPATH
+
+/usr/local/lib/python2.7/dist-packages:
+/usr/local/lib/python3/dist-packages:
+/usr/local/lib/python2.7/dist-packages:
+/usr/local/lib/python3/dist-packages:
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ 
+
+SOLUTION
+===========================================================
+unset PYTHONPATH   ## THE BEST
+
+## export PYTHONPATH=/usr/local/lib/python3/dist-packages:$PYTHONPATH
+## export PYTHONPATH=/usr/local/lib/python2.7/dist-packages:$PYTHONPATH
+
+## export PYTHONPATH=/home/wruslan/PycharmProjects/test-01/venv/lib/python3.9/site-packages:$PYTHONPATH
+## export PYTHONPATH=/home/wruslan/.local/lib/python3.8/site-packages:$PYTHONPATH
+## export PYTHONPATH=/home/wruslan/opt/GNAT/2020/lib/python2.7/site-packages:$PYTHONPATH
+
+

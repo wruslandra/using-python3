@@ -1,0 +1,271 @@
+
+Python 3.9.0+ (default, Oct 20 2020, 08:43:38) 
+===========================================================
+Wed 17 Mar 2021 08:13:44 PM +08
+Linux HPEliteBook8470p-Ub2004-rt38 5.4.66-rt38 #1 SMP PREEMPT_RT 
+Sat Sep 26 16:51:59 +08 2020 x86_64 x86_64 x86_64 GNU/Linux
+LSB Version:    core-11.1.0ubuntu2-noarch:security-11.1.0ubuntu2-noarch
+Distributor ID: Ubuntu
+Description:    Ubuntu 20.04.2 LTS
+Release:        20.04
+Codename:       focal
+
+===========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ python3
+Python 3.9.0+ (default, Oct 20 2020, 08:43:38) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+>>> import os
+>>> import sys
+>>> import time
+>>> import dateutil
+>>> import timeit
+>>> 
+>>> import numpy
+>>> import scipy
+>>> import matplotlib
+>>> import matplotlib.pyplot
+>>> import pylab
+>>> 
+>>> import PyQt4 ==> : No module named 'PyQt4'
+>>> import PyQt5
+>>>
+>>> import pandas
+>>> import h5py
+>>> import cython
+>>> import threading
+>>> import multiprocessing
+>>>
+>>> import seaborn
+>>> import sklearn
+>>>
+>>> import tensorflow  : PROBLEM
+>>> import keras       : PROBLEM
+>>>
+===========================================================
+>>> help()
+
+Welcome to Python 3.9's help utility!
+
+If this is your first time using Python, you should definitely check out
+the tutorial on the Internet at https://docs.python.org/3.9/tutorial/.
+
+Enter the name of any module, keyword, or topic to get help on writing
+Python programs and using Python modules.  To quit this help utility and
+return to the interpreter, just type "quit".
+
+To get a list of available modules, keywords, symbols, or topics, type
+"modules", "keywords", "symbols", or "topics".  Each module also comes
+with a one-line summary of what it does; to list the modules whose name
+or summary contain a given string such as "spam", type "modules spam".
+
+help> modules
+
+Please wait a moment while I gather a list of all available modules...
+
+AptUrl              brain_crypt         ipykernel           redshift_gtk
+CommandNotFound     brain_curses        ipykernel_launcher  regex
+Crypto              brain_dataclasses   ipython_genutils    reportlab
+Cython              brain_dateutil      isort               reprlib
+DistUpgrade         brain_fstrings      itertools           requests
+HweSupportStatus    brain_functools     janitor             requests_unixsocket
+IPy                 brain_gi            jdcal               resource
+IPython             brain_hashlib       jedi                rlcompleter
+LanguageSelector    brain_http          jinja2              rmagic
+Levenshtein         brain_io            joblib              roman
+LibAppArmor         brain_mechanize     json                rope
+MediaInfoDLL3       brain_multiprocessing jsonschema          routes
+Mozo                brain_namedtuple_enum jupyter             runpy
+NvidiaDetector      brain_nose          jupyter_client      samba
+OLD-matplotlib      brain_numpy_core_fromnumeric jupyter_core        sched
+OLD-numpy           brain_numpy_core_function_base jwt                 scipy
+OLD-numpydoc        brain_numpy_core_multiarray kazam               scour
+OLD-scipy           brain_numpy_core_numeric keras               seaborn
+Onboard             brain_numpy_core_numerictypes keyring             secrets
+OpenGL              brain_numpy_core_umath keyword             secretstorage
+OpenSSL             brain_numpy_ndarray kiwisolver          select
+PIL                 brain_numpy_random_mtrand l20n                selectors
+Plframe             brain_numpy_utils   language_support_pkgs service_identity
+Pltk_init           brain_pkg_resources launchpadlib        setuptools
+PyMca5              brain_pytest        lazy_object_proxy   shelve
+PyQt5               brain_qt            lib2to3             shiboken2
+PySide2             brain_random        libfuturize         shlex
+PyTango             brain_re            libpasteurize       shutil
+Quirks              brain_six           libusb1             signal
+TclSup              brain_ssl           linecache           silx
+UbuntuDrivers       brain_subprocess    locale              simplejson
+UbuntuSystemService brain_threading     lockfile            sipconfig
+UpdateManager       brain_typing        logging             sipconfig_d8
+Xlib                brain_uuid          louis               sipconfig_nd8
+__future__          bs4                 lsb_release         sipdistutils
+_abc                builtins            lxml                site
+_aix_support        bz2                 lz4                 sitecustomize
+_ast                cProfile            lzma                six
+_asyncio            caffe2              macaroonbakery      sklearn
+_bisect             cairo               magic               smtpd
+_blake2             cairocffi           mailbox             smtplib
+_bootlocale         cairosvg            mailcap             snappy
+_bootsubprocess     cajarename          mako                sndhdr
+_bz2                calendar            markdown            socket
+_codecs             cbor                markupsafe          socketserver
+_codecs_cn          certifi             marshal             softwareproperties
+_codecs_hk          cffi                mate_menu           soupsieve
+_codecs_iso2022     cgi                 math                speechd
+_codecs_jp          cgitb               mathgl              speechd_config
+_codecs_kr          chardet             matplotlib          sphinx
+_codecs_tw          chm                 mccabe              spwd
+_collections        chunk               mdp                 spyder
+_collections_abc    click               mechanize           spyder_breakpoints
+_compat_pickle      cloudpickle         menulibre           spyder_io_dcm
+_compression        cmath               menulibre_lib       spyder_io_hdf5
+_contextvars        cmd                 mesonbuild          spyder_kernels
+_crypt              code                mimetypes           spyder_profiler
+_csv                codecs              mistune             spyder_pylint
+_ctypes             codeop              mmap                sqlite3
+_ctypes_test        collections         mock                sqt
+_curses             colorama            modulefinder        sre_compile
+_curses_panel       colorsys            monotonic           sre_constants
+_datetime           colour              more_itertools      sre_parse
+_dbm                compileall          mpi4py              ssh_import_id
+_decimal            concurrent          mpl_toolkits        ssl
+_distutils_hack     configobj           msgpack             stat
+_elementtree        configparser        multiprocessing     statistics
+_functools          constantly          nacl                storemagic
+_gdbm               contextlib          nbconvert           string
+_hashlib            contextvars         nbformat            stringprep
+_heapq              copy                netrc               struct
+_imp                copyreg             nis                 subprocess
+_io                 crypt               nntplib             sunau
+_json               cryptography        nose                symbol
+_ldb_text           css_parser          notify2             sympyprinting
+_locale             cssselect           ntpath              symtable
+_lsprof             cssselect2          nturl2path          sys
+_lzma               cssutils            numbers             sysconfig
+_markupbase         csv                 numexpr             syslog
+_mathgl             ctypes              numpy               systemd
+_md5                cupshelpers         oauth               tables
+_multibytecodec     curses              oauthlib            tabnanny
+_multiprocessing    cutadapt            olefile             tango
+_opcode             cycler              opcode              tarfile
+_operator           cython              openpyxl            taurus
+_osx_support        cythonmagic         operator            taurus_pyqtgraph
+_peg_parser         dataclasses         optparse            telnetlib
+_pickle             datetime            orca                tempfile
+_posixshmem         dateutil            os                  tensorflow
+_posixsubprocess    dbm                 ossaudiodev         termios
+_py_abc             dbtexmf             packaging           test
+_pydecimal          dbus                pandas              test_png
+_pyio               deb822              pandocfilters       test_trie
+_pyrsistent_version debconf             paramiko            testpath
+_pytest             debian              parser              tests
+_queue              debian_bundle       parso               textwrap
+_random             decimal             past                this
+_remote_module_non_sriptable decorator           pathlib             threading
+_sha1               defer               patsy               threadpoolctl
+_sha256             defusedxml          pbr                 time
+_sha3               devscripts          pdb                 timeit
+_sha512             dicom               pexpect             tinycss2
+_signal             diff_match_patch    pickle              tkinter
+_sitebuiltins       difflib             pickleshare         token
+_socket             dis                 pickletools         tokenize
+_sqlite3            distro              pint                torch
+_sre                distro_info         pip                 tornado
+_ssl                distutils           pipes               trace
+_stat               dnaio               pkg_resources       traceback
+_statistics         dns                 pkgutil             tracemalloc
+_string             docs                platform            traitlets
+_strptime           doctest             plistlib            traits
+_struct             docutils            plplot              translate
+_symtable           dot2tex             plplotc             tty
+_sysconfigdata__linux_x86_64-linux-gnu duplicity           pluggy              turtle
+_sysconfigdata__x86_64-linux-gnu easy_install        ply                 twisted
+_tdb_text           email               png                 txaio
+_testbuffer         enchant             pngsuite            types
+_testcapi           encodings           poplib              typing
+_testimportmultiple encutils            posix               typing_extensions
+_testinternalcapi   entrypoints         posixpath           uaclient
+_testmultiphase     enum                pprint              ubjson
+_thread             errno               problem_report      ufw
+_threading_local    et_xmlfile          profile             umsgpack
+_tkinter            fabio               prompt_toolkit      unicodedata
+_tracemalloc        fasteners           pstats              unidiff
+_uuid               faulthandler        psutil              unittest
+_version            fcntl               pty                 uno
+_warnings           feedparser          ptyprocess          unohelper
+_weakref            filecmp             pwd                 urllib
+_weakrefset         fileinput           py                  urllib3
+_xxsubinterpreters  fisx                py_compile          usb1
+_xxtestfuzz         fnmatch             pyasn1              usbcreator
+_yaml               formatter           pyasn1_modules      uu
+_zoneinfo           fractions           pyatspi             uuid
+abc                 ftplib              pyclbr              validate
+absl                functools           pycodestyle         venv
+aeidon              future              pycountry           vobject
+aifc                gc                  pycparser           vtk
+alabaster           genericpath         pydicom             vtkplotter
+antigravity         getopt              pydoc               wadllib
+apparmor            getpass             pydoc_data          warnings
+appdirs             gettext             pyexpat             wave
+apport              gi                  pyface              wcwidth
+apport_python_hook  glob                pyflakes            weakref
+apt                 gpg                 pygments            webbrowser
+aptdaemon           graphlib            pygtkcompat         webencodings
+aptsources          grp                 pyinotify           webob
+argparse            gtweak              pylab               webview
+array               guidata             pylint              wheel
+asn1crypto          guiqwt              pymacaroons         wrapt
+ast                 gzip                pyopencl            wsaccel
+astroid             h5py                pyparsing           wsgiref
+asynchat            hamcrest            pyqrcode            xapian
+asyncio             hashlib             pyqtgraph           xapp
+asyncore            hdf5storage         pyrfc3339           xcffib
+atexit              heapq               pyrsistent          xdg
+atomicwrites        hmac                pysam               xdot
+attr                html                pysvn               xdrlib
+audioop             html2text           pytest              xkit
+autobahn            html5_parser        pytestqt            xlrd
+automat             html5lib            python_qt_binding   xlwt
+autoreload          http                pytools             xml
+babel               httplib2            pytrie              xmlrpc
+backcall            hyperlink           pytz                xopen
+base64              idlelib             pyudev              xxlimited
+bcrypt              idna                pyximport           xxsubtype
+bdb                 ifaddr              qt5reactor          yaml
+bimdp               imagesize           qtawesome           yapps
+binascii            imaplib             qtconsole           youtube_dl
+binhex              imghdr              qtpy                zeroconf
+bisect              imp                 quamash             zipapp
+bleach              importlib           quark_sphinx_theme  zipfile
+blinker             importlib_metadata  queue               zipimport
+blueman             incremental         quopri              zipp
+brain_argparse      iniparse            qwt                 zlib
+brain_attrs         inspect             random              zmq
+brain_builtin_inference io                  re                  zoneinfo
+brain_collections   ipaddress           readline            zope
+
+Enter any module name to get more help.  Or, type "modules spam" to search
+for modules whose name or summary contain the string "spam".
+
+help> 
+
+You are now leaving help and returning to the Python interpreter.
+If you want to ask for help on a particular object directly from the
+interpreter, you can type "help(object)".  Executing "help('string')"
+has the same effect as typing a particular string at the help> prompt.
+>>> 
+>>> 
+[2]+  Stopped                 python3
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ 
+===========================================================
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ pip2 --version
+pip 20.3.4 from /home/wruslan/.local/lib/python2.7/site-packages/pip (python 2.7)
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ pip3 --version
+pip 21.0.1 from /home/wruslan/PycharmProjects/PyCharmLearningProject/venv/lib/python3.9/site-packages/pip (python 3.9)
+
+===========================================================
+ALHAMDULILLAH 3 TIMES WRY.
+===========================================================
+
