@@ -1,0 +1,80 @@
+Python 3.8.5 (default, Jan 27 2021, 15:41:15) 
+
+===========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ date
+Sun 21 Mar 2021 02:00:27 AM +08
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ uname -a
+Linux HPEliteBook8470p-Ub2004-rt38 5.4.66-rt38 #1 SMP PREEMPT_RT 
+Sat Sep 26 16:51:59 +08 2020 x86_64 x86_64 x86_64 GNU/Linux
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ lsb_release -a
+LSB Version:	core-11.1.0ubuntu2-noarch:security-11.1.0ubuntu2-noarch
+Distributor ID:	Ubuntu
+Description:	Ubuntu 20.04.2 LTS
+Release:	20.04
+Codename:	focal
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ 
+
+===========================================================
+Python 3.8.5 (default, Jan 27 2021, 15:41:15) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+>>> import os
+>>> import sys
+>>> import time
+>>> import timeit
+>>> import dateutil
+>>> 
+>>> import numpy
+>>> import scipy
+>>> import matplotlib
+>>> import matplotlib.pyplot
+>>> import pylab
+>>>
+>>> import pandas
+>>> import cython
+>>> import h5py
+>>> import PyQt5
+>>> import PyQt5.Qwt
+>>> import threading
+>>> import multiprocessing
+>>> 
+>>> import mdp
+>>> import bimdp
+>>> import pybrain
+>>> 
+>>> import torch
+>>> import torchvision
+>>> import seaborn
+>>> import sklearn
+>>> import theano
+>>> import tensorflow
+Successfully opened dynamic library libcudart.so.10.1
+>>> import tornado
+>>> import keras
+>>> 
+>>> help()
+
+Welcome to Python 3.8's help utility!
+
+If this is your first time using Python, you should definitely check out
+the tutorial on the Internet at https://docs.python.org/3.8/tutorial/.
+
+Enter the name of any module, keyword, or topic to get help on writing
+Python programs and using Python modules.  To quit this help utility and
+return to the interpreter, just type "quit".
+
+To get a list of available modules, keywords, symbols, or topics, type
+"modules", "keywords", "symbols", or "topics".  Each module also comes
+with a one-line summary of what it does; to list the modules whose name
+or summary contain a given string such as "spam", type "modules spam".
+
+help> modules
+
+Please wait a moment while I gather a list of all available modules...
+
+
+
+

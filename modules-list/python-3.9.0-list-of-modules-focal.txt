@@ -27,13 +27,12 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> import matplotlib
 >>> import matplotlib.pyplot
 >>> import pylab
->>> 
->>> import PyQt4 ==> : No module named 'PyQt4'
->>> import PyQt5
 >>>
 >>> import pandas
 >>> import h5py
 >>> import cython
+>>> import PyQt4 ==> : No module named 'PyQt4'
+>>> import PyQt5
 >>> import threading
 >>> import multiprocessing
 >>>

@@ -38,3 +38,32 @@ wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/wruslandra/using-python3$ tree ./
 7 directories, 15 files
 wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/wruslandra/using-python3$ 
 
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/wruslandra/using-python3$ git add .
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/wruslandra/using-python3$ git commit -m "initial commit"
+[main 40c8d73] initial commit
+ 9 files changed, 304 insertions(+), 1 deletion(-)
+ create mode 100644 docs/Beginning Qt5 with PyQt GUI Programming-(2020).pdf
+ create mode 100644 docs/Qt4-Rapid GUI programming with PyQt4-(2008).pdf
+ create mode 100644 docs/Qt5 Python GUI Programming Cookbook with PyQt-(2018).pdf
+ rename figures/{ => jpg}/Idle-Python-3.9.0-2021-03-19-01-15-42.jpg (100%)
+ rename figures/{ => png}/Idle-Python-3.9.0-2021-03-19-01-15-42.png (100%)
+ create mode 100644 modules-list/python-3.6.9-list-of-modules-bionic.txt
+ rename modules-list/{python3.9-list-of-modules.txt => python-3.9.0-list-of-modules-focal.txt} (100%)
+ create mode 100644 sessions/session-002.txt
+ 
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/wruslandra/using-python3$ git push origin main
+Username for 'https://github.com': wruslandra
+Password for 'https://wruslandra@github.com': 
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (15/15), 14.07 MiB | 61.00 KiB/s, done.
+Total 15 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/wruslandra/using-python3.git
+   51a58f6..40c8d73  main -> main
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/wruslandra/using-python3$ 
+
+
+
