@@ -1,0 +1,232 @@
+Python 3.6.9 (default, Jan 26 2021, 15:33:00) 
+
+===========================================================
+wruslan@hp-elitebook-ub1804-rt64:~$ date
+Sun Mar 21 00:14:25 +08 2021
+
+wruslan@hp-elitebook-ub1804-rt64:~$ uname -a
+Linux hp-elitebook-ub1804-rt64 4.19.148-rt64 #1 SMP PREEMPT RT 
+Wed Oct 7 08:11:43 +08 2020 x86_64 x86_64 x86_64 GNU/Linux
+
+wruslan@hp-elitebook-ub1804-rt64:~$ lsb_release -a
+LSB Version:	core-9.20170808ubuntu1-noarch:security-9.20170808ubuntu1-noarch
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.04.5 LTS
+Release:	18.04
+Codename:	bionic
+wruslan@hp-elitebook-ub1804-rt64:~$ 
+
+===========================================================
+wruslan@hp-elitebook-ub1804-rt64:~$ python3
+Python 3.6.9 (default, Jan 26 2021, 15:33:00) 
+[GCC 8.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+>>> import os
+>>> import sys
+>>> import time
+>>> import timeit
+>>> import dateutil
+>>>
+>>> import numpy
+>>> import scipy
+>>> import matplotlib
+>>> import matplotlib.pyplot
+>>> import pylab
+>>>
+>>> import pandas
+>>> import h5py
+>>> import cython
+>>> import PyQt5
+>>> import PyQt4
+>>> import threading
+>>> import multiprocessing
+>>>
+>>> import mdp
+>>> import bimdp
+>>> import pybrain
+>>>    
+>>> import torch
+>>> import torchvision
+>>> import seaborn
+>>> import sklearn
+>>> import theano
+>>> import tensorflow
+2021-03-20 23:53:57.112227: Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+>>> import tornado
+>>> import keras
+>>>
+>>> help()
+
+Welcome to Python 3.6's help utility!
+
+If this is your first time using Python, you should definitely check out
+the tutorial on the Internet at https://docs.python.org/3.6/tutorial/.
+
+Enter the name of any module, keyword, or topic to get help on writing
+Python programs and using Python modules.  To quit this help utility and
+return to the interpreter, just type "quit".
+
+To get a list of available modules, keywords, symbols, or topics, type
+"modules", "keywords", "symbols", or "topics".  Each module also comes
+with a one-line summary of what it does; to list the modules whose name
+or summary contain a given string such as "spam", type "modules spam".
+
+help> modules
+
+Please wait a moment while I gather a list of all available modules...
+
+AptUrl              binascii            keyword             scipy
+CommandNotFound     binhex              kiwisolver          scour
+Crypto              bisect              language_support_pkgs script
+Cython              bleach              launchpadlib        seaborn
+DistUpgrade         boost               lazy_object_proxy   secrets
+HweSupportStatus    brlapi              lib2to3             secretstorage
+IPython             builtins            libfuturize         select
+LanguageSelector    bz2                 libpasteurize       selectors
+NvidiaDetector      cProfile            linecache           setuptools
+OpenSSL             cached_property     locale              shelve
+PIL                 cachetools          logging             shlex
+Plframe             caffe2              louis               shutil
+Pltk_init           cairo               lsb_release         signal
+PyQt4               calendar            lxml                simplegeneric
+PyQt5               certifi             lzma                simplejson
+PySide              cgi                 macaroonbakery      sip
+Quirks              cgitb               macpath             sipconfig
+Qwt5                chardet             macurl2path         sipconfig_d6
+TclSup              chunk               mailbox             sipconfig_nd6
+UbuntuDrivers       cloudpickle         mailcap             site
+UbuntuSystemService cmath               mako                sitecustomize
+UpdateManager       cmd                 markdown            six
+_Pltk_init          code                markupsafe          sklearn
+__future__          codecs              marshal             smtpd
+_ast                codeop              math                smtplib
+_asyncio            collections         matplotlib          sndhdr
+_bisect             colorama            mccabe              socket
+_blake2             colorsys            mdp                 socketserver
+_bootlocale         compileall          mimetypes           softwareproperties
+_bz2                concurrent          mistune             speechd
+_cffi_backend       configparser        mmap                speechd_config
+_codecs             contextlib          modulefinder        sphinx
+_codecs_cn          copy                mpl_toolkits        spwd
+_codecs_hk          copyreg             multiprocessing     spyder
+_codecs_iso2022     crypt               nacl                spyder_breakpoints
+_codecs_jp          cryptography        nbconvert           spyder_io_dcm
+_codecs_kr          csv                 nbformat            spyder_io_hdf5
+_codecs_tw          ctypes              netifaces           spyder_profiler
+_collections        cups                netrc               spyder_pylint
+_collections_abc    cupsext             nis                 sqlite3
+_compat_pickle      cupshelpers         nlp                 sre_compile
+_compression        curses              nntplib             sre_constants
+_crypt              cycler              ntpath              sre_parse
+_csv                cython              nturl2path          ssl
+_ctypes             dataclasses         numbers             stat
+_ctypes_test        datetime            numpy               statistics
+_curses             dateutil            numpydoc            string
+_curses_panel       dbm                 oauth               stringprep
+_datetime           dbus                oauthlib            struct
+_dbm                deb822              olefile             structure
+_dbus_bindings      debconf             opcode              subprocess
+_dbus_glib_bindings debian              operator            sunau
+_decimal            debian_bundle       opt_einsum          symbol
+_distutils_hack     decimal             optparse            symtable
+_dummy_thread       decorator           orca                sys
+_elementtree        defer               os                  sysconfig
+_functools          dicom               ossaudiodev         syslog
+_gdbm               difflib             pandas              systemd
+_hashlib            dill                pandocfilters       tabnanny
+_heapq              dis                 parser              tarfile
+_imp                dist-packages       parso               telnetlib
+_io                 distro_info         past                tempfile
+_json               distro_info_test    pasta               tensorboard
+_k8000              distutils           pathlib             tensorboard_plugin_wit
+_locale             docs                pathspec            tensorflow
+_lsprof             doctest             pcardext            tensorflow_estimator
+_lzma               docutils            pdb                 termcolor
+_markupbase         dummy_threading     pexpect             termios
+_md5                easy_install        pickle              test
+_multibytecodec     email               pickleshare         testpath
+_multiprocessing    encodings           pickletools         textwrap
+_opcode             entrypoints         pip                 theano
+_operator           enum                pipdate             this
+_osx_support        errno               pipes               threading
+_pickle             faulthandler        pkg_resources       threadpoolctl
+_plplotc            fcntl               pkgutil             time
+_posixsubprocess    filecmp             platform            timeit
+_pydecimal          fileinput           plistlib            tinynetrc
+_pyio               filelock            plplot              tkinter
+_pyk8055            fire                plplot_pyqt5_3      token
+_random             flatbuffers         plplotc             tokenize
+_sha1               fnmatch             poplib              tools
+_sha256             formatter           posix               torch
+_sha3               fractions           posixpath           torchvision
+_sha512             ftplib              pprint              tornado
+_signal             functools           problem_report      tqdm
+_sitebuiltins       future              profile             trace
+_socket             gast                prompt_toolkit      traceback
+_sqlite3            gc                  pstats              tracemalloc
+_sre                genericpath         psutil              traitlets
+_ssl                getopt              pty                 tty
+_stat               getpass             ptyprocess          turtle
+_string             gettext             pwd                 types
+_strptime           gi                  py_compile          typing
+_struct             glob                pyarrow             typing_extensions
+_symtable           google_auth_oauthlib pyasn1              ufw
+_sysconfigdata_dm_linux_x86_64-linux-gnu graphviz            pyasn1_modules      uic
+_sysconfigdata_m_linux_x86_64-linux-gnu grp                 pyatspi             unicodedata
+_testbuffer         grpc                pybrain             unittest
+_testcapi           guidata             pyclbr              uno
+_testimportmultiple guiqwt              pycodestyle         unohelper
+_testmultiphase     gzip                pydoc               urllib
+_thread             h5py                pydoc_data          urllib3
+_threading_local    hashlib             pyexpat             usbcreator
+_tkinter            heapq               pyflakes            uu
+_tracemalloc        hmac                pygments            uuid
+_warnings           hpmudext            pygtkcompat         venv
+_weakref            html                pyk8055             wadllib
+_weakrefset         html5lib            pylab               warnings
+_yaml               http                pylint              wave
+abc                 httplib2            pymacaroons         wcwidth
+absl                idna                pyparsing           weakref
+aifc                imagesize           pyqtconfig          webbrowser
+alabaster           imaplib             pyqtconfig_d        webencodings
+antigravity         imghdr              pyrfc3339           werkzeug
+appdirs             imp                 pytils              wheel
+apport              importlib           pytz                wrapt
+apport_python_hook  importlib_metadata  pyudev              wsgiref
+apt                 inspect             pyximport           wx
+apt_inst            io                  qtawesome           xapian
+apt_pkg             ipaddress           qtconsole           xattr
+aptdaemon           ipykernel           qtpy                xdg
+aptsources          ipykernel_launcher  queue               xdot
+argparse            ipython_genutils    quopri              xdrlib
+array               isort               qwt                 xkit
+asn1crypto          itertools           random              xml
+ast                 janitor             re                  xmlrpc
+astor               jedi                readline            xxhash
+astroid             jinja2              reportlab           xxlimited
+astunparse          joblib              reprlib             xxsubtype
+asynchat            json                requests            yaml
+asyncio             jsonschema          requests_oauthlib   youtube_dl
+asyncore            jupyter             requests_unixsocket zipapp
+atexit              jupyter_client      resource            zipfile
+audioop             jupyter_core        rlcompleter         zipimport
+axi                 k8000               roman               zipp
+babel               kazam               rope                zlib
+base64              keras               rsa                 zmq
+bdb                 keras_applications  runpy               zope
+bimdp               keras_preprocessing scanext             
+bin                 keyring             sched               
+
+Enter any module name to get more help.  Or, type "modules spam" to search
+for modules whose name or summary contain the string "spam".
+
+help> 
+
+
+[7]+  Stopped                 python3
+wruslan@hp-elitebook-ub1804-rt64:~$  
+===========================================================
+ALHAMDULILLAH 3 TIMES WRY.
+===========================================================
+

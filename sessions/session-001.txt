@@ -49,6 +49,37 @@ wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/wruslandra/using-python3$ tree ./
 wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/wruslandra/using-python3$ 
 
 ===========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/wruslandra/using-python3$ git add .
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/wruslandra/using-python3$ git commit -m "initial commit"
+[main 51a58f6] initial commit
+ 10 files changed, 62384 insertions(+)
+ create mode 100755 docs/Python-Parallel-Programming.pdf
+ create mode 100644 figures/Idle-Python-3.9.0-2021-03-19-01-15-42.jpg
+ create mode 100644 figures/Idle-Python-3.9.0-2021-03-19-01-15-42.png
+ create mode 100644 files/bismillah.ngc
+ create mode 100644 files/butterfly.nc
+ create mode 100755 files/just-KSG.ngc
+ create mode 100644 files/linuxcnc-logo.nc
+ create mode 100644 modules-list/python3.9-list-of-modules.txt
+ create mode 100644 modules-list/setting-pythonpath-and-pythonhome.txt
+ create mode 100644 sessions/session-001.txt
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/wruslandra/using-python3$
+ 
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/wruslandra/using-python3$ git push origin main
+Username for 'https://github.com': wruslandra
+Password for 'https://wruslandra@github.com': 
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (17/17), 2.42 MiB | 68.00 KiB/s, done.
+Total 17 (delta 0), reused 0 (delta 0)
+To https://github.com/wruslandra/using-python3.git
+   41e2bc3..51a58f6  main -> main
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/wruslandra/using-python3$ 
+
+
+===========================================================
 ALHAMDULILLAH 3 TIMES WRY
 ===========================================================
 
