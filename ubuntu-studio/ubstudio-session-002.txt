@@ -1,0 +1,48 @@
+wruslan@HPEliteBk8470p-ubstudio-20:~/github/wruslandra/using-python3$ ls -al
+total 40
+drwxrwxr-x  9 wruslan wruslan 4096 Apr  1 07:29 .
+drwxrwxr-x 11 wruslan wruslan 4096 Apr  1 05:31 ..
+drwxrwxr-x  2 wruslan wruslan 4096 Mar 19 10:36 docs
+drwxrwxr-x  4 wruslan wruslan 4096 Mar 19 03:01 figures
+drwxrwxr-x  2 wruslan wruslan 4096 Mar 19 01:04 files
+drwxrwxr-x  8 wruslan wruslan 4096 Mar 21 03:30 .git
+drwxrwxr-x  2 wruslan wruslan 4096 Mar 21 02:07 modules-list
+-rw-rw-r--  1 wruslan wruslan   63 Mar 19 00:35 README.md
+drwxrwxr-x  2 wruslan wruslan 4096 Apr  1 07:29 sessions
+drwxrwxr-x  2 wruslan wruslan 4096 Apr  1 07:32 ubuntu-studio
+wruslan@HPEliteBk8470p-ubstudio-20:~/github/wruslandra/using-python3$ 
+wruslan@HPEliteBk8470p-ubstudio-20:~/github/wruslandra/using-python3$ tree ./
+./
+├── docs
+│   ├── Beginning Qt5 with PyQt GUI Programming-(2020).pdf
+│   ├── Python-Parallel-Programming.pdf
+│   ├── Qt4-Rapid GUI programming with PyQt4-(2008).pdf
+│   └── Qt5 Python GUI Programming Cookbook with PyQt-(2018).pdf
+├── figures
+│   ├── jpg
+│   │   └── Idle-Python-3.9.0-2021-03-19-01-15-42.jpg
+│   └── png
+│       └── Idle-Python-3.9.0-2021-03-19-01-15-42.png
+├── files
+│   ├── bismillah.ngc
+│   ├── butterfly.nc
+│   ├── just-KSG.ngc
+│   └── linuxcnc-logo.nc
+├── modules-list
+│   ├── python-3.6.9-list-of-modules-bionic.txt
+│   ├── python-3.8.5-list-of-modules-focal.txt
+│   ├── python-3.9.0-list-of-modules-focal.txt
+│   └── setting-pythonpath-and-pythonhome.txt
+├── README.md
+├── sessions
+│   ├── session-001.txt
+│   └── session-002.txt
+└── ubuntu-studio
+    ├── ubstudio-session-001.txt
+    └── ubstudio-session-002.txt
+
+8 directories, 19 files
+wruslan@HPEliteBk8470p-ubstudio-20:~/github/wruslandra/using-python3$ 
+
+
+

@@ -1,0 +1,1615 @@
+wruslan@HPEliteBk8470p-ubstudio-20:~$ date
+Thu 01 Apr 2021 05:36:11 AM +08
+
+wruslan@HPEliteBk8470p-ubstudio-20:~$ uname -a
+Linux HPEliteBk8470p-ubstudio-20 5.8.0-48-lowlatency #54~20.04.1-Ubuntu SMP PREEMPT 
+Sat Mar 20 23:24:50 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+
+wruslan@HPEliteBk8470p-ubstudio-20:~$ lsb_release -a
+LSB Version:	core-11.1.0ubuntu2-noarch:security-11.1.0ubuntu2-noarch
+Distributor ID:	Ubuntu
+Description:	Ubuntu 20.04.2 LTS
+Release:	20.04
+Codename:	focal
+wruslan@HPEliteBk8470p-ubstudio-20:~$ 
+
+===========================================================
+SUMMARY OF PYTHON MODULE DIRECTORIES
+===========================================================
+(1) /usr/lib/python2.7
+(2) /usr/lib/python3
+(3) /usr/lib/python3.8
+(4) /usr/lib/python3.9
+(5) /usr/local/lib/python2.7
+(6) /usr/local/lib/python3.8
+
+===========================================================
+wruslan@HPEliteBk8470p-ubstudio-20:~$ ls -al /usr/bin | grep python
+lrwxrwxrwx  1 root   root          60 Feb 18  2020 depythontex -> ../share/texlive/texmf-dist/scripts/pythontex/depythontex.py
+-rwxr-xr-x  1 root   root        1057 Mar 13  2020 dh_python2
+-rwxr-xr-x  1 root   root        2336 Jun 20  2017 dh_python3-ply
+lrwxrwxrwx  1 root   root          55 Feb 18 23:40 django-admin -> ../lib/python3/dist-packages/django/bin/django-admin.py
+-rwxr-xr-x  1 root   root         387 Mar  4  2020 ipython3
+lrwxrwxrwx  1 root   root          23 Mar  8 21:02 pdb2.7 -> ../lib/python2.7/pdb.py
+lrwxrwxrwx  1 root   root          23 Jan 27 23:41 pdb3.8 -> ../lib/python3.8/pdb.py
+lrwxrwxrwx  1 root   root          31 Mar 28 18:49 py3versions -> ../share/python3/py3versions.py
+-rwxr-xr-x  1 root   root         377 Aug 13  2020 pybabel-python3
+lrwxrwxrwx  1 root   root          18 Mar 29 09:14 python -> /usr/bin/python3.8
+lrwxrwxrwx  1 root   root           9 Mar 28 18:49 python2 -> python2.7
+-rwxr-xr-x  1 root   root     3674216 Mar  8 21:02 python2.7
+lrwxrwxrwx  1 root   root          33 Mar  8 21:02 python2.7-config -> x86_64-linux-gnu-python2.7-config
+-rwxr-xr-x  1 root   root     7708792 Mar  8 21:02 python2.7-dbg
+lrwxrwxrwx  1 root   root          37 Mar  8 21:02 python2.7-dbg-config -> x86_64-linux-gnu-python2.7-dbg-config
+lrwxrwxrwx  1 root   root          16 Mar 13  2020 python2-config -> python2.7-config
+lrwxrwxrwx  1 root   root          13 Mar 13  2020 python2-dbg -> python2.7-dbg
+lrwxrwxrwx  1 root   root          20 Mar 13  2020 python2-dbg-config -> python2.7-dbg-config
+lrwxrwxrwx  1 root   root           9 Mar 28 18:49 python3 -> python3.8
+-rwxr-xr-x  1 root   root     5486384 Jan 27 23:41 python3.8
+lrwxrwxrwx  1 root   root          33 Jan 27 23:41 python3.8-config -> x86_64-linux-gnu-python3.8-config
+-rwxr-xr-x  1 root   root    22288144 Jan 27 23:41 python3.8d
+lrwxrwxrwx  1 root   root          10 Jan 27 23:41 python3.8-dbg -> python3.8d
+lrwxrwxrwx  1 root   root          37 Jan 27 23:41 python3.8-dbg-config -> x86_64-linux-gnu-python3.8-dbg-config
+lrwxrwxrwx  1 root   root          34 Jan 27 23:41 python3.8d-config -> x86_64-linux-gnu-python3.8d-config
+lrwxrwxrwx  1 root   root          16 Mar 13  2020 python3-config -> python3.8-config
+lrwxrwxrwx  1 root   root          10 Mar 13  2020 python3d -> python3.8d
+lrwxrwxrwx  1 root   root          13 Mar 13  2020 python3-dbg -> python3.8-dbg
+lrwxrwxrwx  1 root   root          20 Mar 13  2020 python3-dbg-config -> python3.8-dbg-config
+lrwxrwxrwx  1 root   root          17 Mar 13  2020 python3d-config -> python3.8d-config
+-rwxr-xr-x  1 root   root         384 Mar 28  2020 python3-futurize
+-rwxr-xr-x  1 root   root         388 Mar 28  2020 python3-pasteurize
+-rwxr-xr-x  1 root   root         152 Apr 10  2020 python3-pbr
+lrwxrwxrwx  1 root   root          58 Feb 18  2020 pythontex -> ../share/texlive/texmf-dist/scripts/pythontex/pythontex.py
+lrwxrwxrwx  1 root   root          29 Mar 28 18:49 pyversions -> ../share/python/pyversions.py
+-rwxr-xr-x  1 root   root        2971 Mar  8 21:02 x86_64-linux-gnu-python2.7-config
+-rwxr-xr-x  1 root   root        2933 Mar  8 21:02 x86_64-linux-gnu-python2.7-dbg-config
+lrwxrwxrwx  1 root   root          33 Mar 13  2020 x86_64-linux-gnu-python2-config -> x86_64-linux-gnu-python2.7-config
+lrwxrwxrwx  1 root   root          37 Mar 13  2020 x86_64-linux-gnu-python2-dbg-config -> x86_64-linux-gnu-python2.7-dbg-config
+-rwxr-xr-x  1 root   root        3240 Jan 27 23:41 x86_64-linux-gnu-python3.8-config
+lrwxrwxrwx  1 root   root          34 Jan 27 23:41 x86_64-linux-gnu-python3.8-dbg-config -> x86_64-linux-gnu-python3.8d-config
+-rwxr-xr-x  1 root   root        3228 Jan 27 23:41 x86_64-linux-gnu-python3.8d-config
+lrwxrwxrwx  1 root   root          33 Mar 13  2020 x86_64-linux-gnu-python3-config -> x86_64-linux-gnu-python3.8-config
+lrwxrwxrwx  1 root   root          37 Mar 13  2020 x86_64-linux-gnu-python3-dbg-config -> x86_64-linux-gnu-python3.8-dbg-config
+lrwxrwxrwx  1 root   root          34 Mar 13  2020 x86_64-linux-gnu-python3d-config -> x86_64-linux-gnu-python3.8d-config
+wruslan@HPEliteBk8470p-ubstudio-20:~$ 
+
+===========================================================
+wruslan@HPEliteBk8470p-ubstudio-20:~$ python
+Python 3.8.5 (default, Jan 27 2021, 15:41:15) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+>>> import os
+>>> import sys
+>>> import time
+>>> import timeit
+>>> import dateutil
+>>> 
+>>> import threading
+>>> import multiprocessing
+>>> import h5py
+>>> import cython
+>>> import numpy
+>>> import matplotlib
+>>> import matplotlib.pyplot
+>>> import pylab
+>>> import PyQt5
+>>>
+>>> import seaborn
+>>> import sklearn
+>>> import tornado
+>>> import tensorflow
+>>> import keras
+>>> 
+>>> import torch
+>>> import torchvision
+>>> 
+[3]+  Stopped                 python
+wruslan@HPEliteBk8470p-ubstudio-20:~$ 
+
+===========================================================
+wruslan@HPEliteBk8470p-ubstudio-20:~$ sudo -H pip install torch torch-vision
+Collecting torch
+  Downloading torch-1.8.1-cp38-cp38-manylinux1_x86_64.whl (804.1 MB)
+     |=================================>| 804.1 MB 2.2 kB/s 
+Collecting torch-vision
+  Downloading torch_vision-0.1.6.dev0-py2.py3-none-any.whl (23 kB)
+Requirement already satisfied: numpy in /usr/local/lib/python3.8/dist-packages (from torch) (1.19.5)
+Requirement already satisfied: typing-extensions in /usr/local/lib/python3.8/dist-packages (from torch) (3.7.4.3)
+Installing collected packages: torch-vision, torch
+Successfully installed torch-1.8.1 torch-vision-0.1.6.dev0
+wruslan@HPEliteBk8470p-ubstudio-20:~$ 
+
+MODULES
+===========================================================
+wruslan@HPEliteBk8470p-ubstudio-20:~$ python3
+Python 3.8.5 (default, Jan 27 2021, 15:41:15) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+>>> help()
+
+Welcome to Python 3.8's help utility!
+
+If this is your first time using Python, you should definitely check out
+the tutorial on the Internet at https://docs.python.org/3.8/tutorial/.
+
+Enter the name of any module, keyword, or topic to get help on writing
+Python programs and using Python modules.  To quit this help utility and
+return to the interpreter, just type "quit".
+
+To get a list of available modules, keywords, symbols, or topics, type
+"modules", "keywords", "symbols", or "topics".  Each module also comes
+with a one-line summary of what it does; to list the modules whose name
+or summary contain a given string such as "spam", type "modules spam".
+
+help> modules
+
+Please wait a moment while I gather a list of all available modules...
+
+    
+  yield from walk_packages(path, info.name+'.', onerror)
+CommandNotFound     bisect              isympy              raphodo
+Cython              blinker             itertools           rawkit
+DistUpgrade         blueman             jack                rdflib
+Gnuplot             bs4                 janitor             re
+HweSupportStatus    builtins            jedi                readline
+IPython             bz2                 joblib              regex
+LanguageSelector    cProfile            jp2                 reportlab
+NvidiaDetector      cachetools          json                reprlib
+Onboard             cairo               jwt                 requests
+PIL                 calendar            keras               requests_oauthlib
+PyGnuplot           catfish             keras_preprocessing requests_unixsocket
+PyPDF2              catfish_lib         keyring             resource
+PyQt5               certifi             keyword             rlcompleter
+Quirks              cffi                kiwisolver          rmagic
+SPARQLWrapper       cgi                 language_support_pkgs routes
+UbuntuDrivers       cgitb               launchpadlib        rply
+UbuntuSystemService chardet             lib2to3             rsa
+UpdateManager       chm                 libfuturize         runpy
+__future__          chunk               liblo               scanext
+_abc                click               libpasteurize       sched
+_ast                cmath               libraw              scipy
+_asyncio            cmd                 libvirt             seaborn
+_bisect             code                libvirt_lxc         secrets
+_blake2             codecs              libvirt_qemu        secretstorage
+_blueman            codeop              libvirtaio          select
+_bootlocale         collections         libvirtmod          selectors
+_bz2                colorama            libvirtmod_lxc      setuptools
+_cffi_backend       coloredlogs         libvirtmod_qemu     shelve
+_codecs             colorsys            lightdm_gtk_greeter_settings shlex
+_codecs_cn          colour              linecache           shutil
+_codecs_hk          compileall          locale              signal
+_codecs_iso2022     concurrent          logging             simplejson
+_codecs_jp          configparser        lsb_release         sip
+_codecs_kr          contextlib          lxml                sipconfig
+_codecs_tw          contextvars         lzma                sipconfig_d8
+_collections        copy                macaroonbakery      sipconfig_nd8
+_collections_abc    copyreg             macholib            sipdistutils
+_compat_pickle      cpuinfo             mailbox             site
+_compression        crypt               mailcap             sitecustomize
+_contextvars        cryptography        markdown            six
+_crypt              css_parser          marshal             skimage
+_csv                cssselect           math                sklearn
+_ctypes             cssutils            matplotlib          smtpd
+_ctypes_test        csv                 mechanize           smtplib
+_curses             ctypes              mimetypes           sndhdr
+_curses_panel       cups                mmap                socket
+_datetime           cupsext             modulefinder        socketserver
+_dbm                cupshelpers         mpl_toolkits        softwareproperties
+_dbus_bindings      curses              mpmath              sortedcontainers
+_dbus_glib_bindings cv2                 msgpack             soupsieve
+_decimal            cycler              mugshot             spwd
+_dummy_thread       cython              mugshot_lib         sqlite3
+_elementtree        cythonmagic         multiprocessing     sqlparse
+_functools          dataclasses         nacl                sre_compile
+_gdbm               datetime            netifaces           sre_constants
+_gv                 dateutil            netrc               sre_parse
+_hashlib            dbm                 networkx            ssl
+_heapq              dbus                nis                 stat
+_imp                deb822              nntplib             statistics
+_io                 debconf             nose                storemagic
+_jack               debian              notify2             string
+_json               debian_bundle       ntpath              stringprep
+_locale             decimal             nturl2path          struct
+_lsprof             decorator           numbers             subprocess
+_lzma               defer               numpy               sunau
+_markupbase         difflib             numpysane           symbol
+_md5                dis                 numpysane_pywrap    sympy
+_multibytecodec     distro              oauthlib            sympyprinting
+_multiprocessing    distro_info         objgraph            symtable
+_opcode             distutils           ocrmypdf            sys
+_openshot           django              ogr                 sysconfig
+_operator           django_extensions   olefile             syslog
+_osx_support        dns                 opcode              systemd
+_pickle             docs                openshot            tabnanny
+_posixshmem         doctest             operator            talloc
+_posixsubprocess    dot2tex             opt_einsum          tarfile
+_py_abc             dot_parser          optparse            telnetlib
+_pydecimal          dummy_threading     ordlookup           tempfile
+_pyio               easy_install        os                  tenacity
+_queue              easygui             osgeo               tensorboard
+_random             easywebdav          osr                 tensorboard_plugin_wit
+_sha1               elftools            ossaudiodev         tensorflow
+_sha256             email               packaging           tensorflow_estimator
+_sha3               encodings           pandas              termcolor
+_sha512             encutils            parser              termios
+_signal             entrypoints         parso               tesserocr
+_sitebuiltins       enum                past                test
+_socket             errno               pasta               tests
+_sqlite3            faulthandler        pathlib             textwrap
+_sre                fcntl               pbr                 this
+_ssl                feedparser          pcardext            threading
+_stat               filecmp             pdb                 threadpoolctl
+_statistics         fileinput           pdfarranger         tifffile
+_string             flatbuffers         pdfminer            time
+_strptime           fnmatch             pefile              timeit
+_struct             formatter           peutils             tkinter
+_symtable           fractions           pexpect             token
+_sysconfigdata__linux_x86_64-linux-gnu ftplib              pickle              tokenize
+_sysconfigdata__x86_64-linux-gnu funcparserlib       pickleshare         tornado
+_sysconfigdata_d_x86_64-linux-gnu functools           pickletools         tqdm
+_testbuffer         future              pikepdf             trace
+_testcapi           gast                pip                 traceback
+_testimportmultiple gc                  pipes               tracemalloc
+_testinternalcapi   gdal                pkg_resources       traitlets
+_testmultiphase     gdalconst           pkgutil             tty
+_thread             gdalnumeric         platform            turtle
+_threading_local    genericpath         plistlib            types
+_tkinter            getopt              pluggy              typing
+_tracemalloc        getpass             ply                 typing_extensions
+_uuid               gettext             poplib              uaclient
+_warnings           gi                  popplerqt5          ufw
+_weakref            glob                posix               unicodedata
+_weakrefset         gnupg               posixpath           unittest
+_xxsubinterpreters  gnuplotlib          pprint              uno
+_xxtestfuzz         google_auth_oauthlib problem_report      unohelper
+_yaml               gphoto2             profile             urllib
+abc                 graphviz            prompt_toolkit      urllib3
+absl                grp                 pstats              uu
+aifc                grpc                psutil              uuid
+altgraph            gv                  pty                 venv
+antigravity         gzip                ptyprocess          wadllib
+appdirs             h5py                pwd                 warnings
+apport              hashlib             py_compile          wave
+apport_python_hook  heapq               pyasn1              wcwidth
+apsw                hmac                pyasn1_modules      weakref
+apt                 hpmudext            pycallgraph         webbrowser
+apt_inst            html                pyclbr              webencodings
+apt_pkg             html2text           pycparser           webob
+aptdaemon           html5_parser        pydoc               werkzeug
+aptsources          html5lib            pydoc_data          wheel
+argparse            http                pydot               wrapt
+array               httplib2            pydot_ng            wsgiref
+arrow               humanfriendly       pydotplus           xdg
+ast                 hy                  pyexpat             xdot
+astor               idna                pygments            xdrlib
+astunparse          ifaddr              pygraphviz          xkit
+asynchat            imageio             pygtkcompat         xml
+asyncio             imaplib             pylab               xmlrpc
+asyncore            img2pdf             pymacaroons         xxlimited
+atexit              imghdr              pymediainfo         xxsubtype
+audioop             imp                 pyparsing           yaml
+autoreload          importlib           pyrfc3339           zeroconf
+babel               imutils             pytz                zipapp
+backcall            inspect             pywt                zipfile
+base64              io                  pyximport           zipimport
+bdb                 ipaddress           queue               zlib
+binascii            ipython_genutils    quopri              zmq
+binhex              isodate             random              
+
+Enter any module name to get more help.  Or, type "modules spam" to search
+for modules whose name or summary contain the string "spam".
+
+help> 
+
+===========================================================
+SUMMARY OF DIRECTORIES
+===========================================================
+(1) /usr/lib/python2.7
+(2) /usr/lib/python3
+(3) /usr/lib/python3.8
+(4) /usr/lib/python3.9
+(5) /usr/local/lib/python2.7
+(6) /usr/local/lib/python3.8
+
+===========================================================
+wruslan@HPEliteBk8470p-ubstudio-20:~$ ls -al /usr/lib | grep python
+
+drwxr-xr-x  28 root root    20480 Mar 29 21:47 python2.7
+drwxr-xr-x   3 root root     4096 Feb 10 23:27 python3
+drwxr-xr-x  34 root root    20480 Mar 31 05:41 python3.8
+drwxr-xr-x   6 root root     4096 Feb 10 23:33 python3.9
+wruslan@HPEliteBk8470p-ubstudio-20:~$ 
+
+wruslan@HPEliteBk8470p-ubstudio-20:~$ ls -al /usr/local/lib | grep python
+drwxrwsr-x  4 root staff    4096 Mar 28 19:39 python2.7
+drwxrwsr-x  3 root staff    4096 Feb 10 23:27 python3.8
+
+===========================================================
+(1) /usr/lib/python2.7
+===========================================================
+wruslan@HPEliteBk8470p-ubstudio-20:~$ ls -al /usr/lib/python2.7/
+total 8360
+drwxr-xr-x  28 root root  20480 Mar 29 21:47 .
+drwxr-xr-x 190 root root  20480 Mar 31 15:06 ..
+-rw-r--r--   1 root root  18619 Mar  8 21:02 _abcoll.py
+-rw-r--r--   1 root root  25474 Mar 28 19:38 _abcoll.pyc
+-rw-r--r--   1 root root   7145 Mar  8 21:02 abc.py
+-rw-r--r--   1 root root   6121 Mar 28 19:38 abc.pyc
+-rw-r--r--   1 root root  34579 Mar  8 21:02 aifc.py
+-rw-r--r--   1 root root  30313 Mar 28 19:39 aifc.pyc
+-rw-r--r--   1 root root     60 Mar  8 21:02 antigravity.py
+-rw-r--r--   1 root root    201 Mar 28 19:39 antigravity.pyc
+-rw-r--r--   1 root root   2663 Mar  8 21:02 anydbm.py
+-rw-r--r--   1 root root   2794 Mar 28 19:39 anydbm.pyc
+-rw-r--r--   1 root root    217 Mar  8 21:02 argparse.egg-info
+-rw-r--r--   1 root root  89228 Mar  8 21:02 argparse.py
+-rw-r--r--   1 root root  64057 Mar 28 19:39 argparse.pyc
+-rw-r--r--   1 root root  11805 Mar  8 21:02 ast.py
+-rw-r--r--   1 root root  12890 Mar 28 19:39 ast.pyc
+-rw-r--r--   1 root root  11581 Mar  8 21:02 asynchat.py
+-rw-r--r--   1 root root   8750 Mar 28 19:39 asynchat.pyc
+-rw-r--r--   1 root root  20943 Mar  8 21:02 asyncore.py
+-rw-r--r--   1 root root  18775 Mar 28 19:39 asyncore.pyc
+-rw-r--r--   1 root root   1705 Mar  8 21:02 atexit.py
+-rw-r--r--   1 root root   2191 Mar 28 19:38 atexit.pyc
+-rw-r--r--   1 root root   7597 Mar  8 21:02 audiodev.py
+-rw-r--r--   1 root root   8415 Mar 28 19:39 audiodev.pyc
+-rwxr-xr-x   1 root root  11806 Mar  8 21:02 base64.py
+-rw-r--r--   1 root root  11261 Mar 28 19:38 base64.pyc
+-rw-r--r--   1 root root  22747 Mar  8 21:02 BaseHTTPServer.py
+-rw-r--r--   1 root root  21682 Mar 28 19:39 BaseHTTPServer.pyc
+-rw-r--r--   1 root root   5744 Mar  8 21:02 Bastion.py
+-rw-r--r--   1 root root   6630 Mar 28 19:39 Bastion.pyc
+-rw-r--r--   1 root root  21714 Mar  8 21:02 bdb.py
+-rw-r--r--   1 root root  18979 Mar 28 19:39 bdb.pyc
+-rw-r--r--   1 root root  14698 Mar  8 21:02 binhex.py
+-rw-r--r--   1 root root  15358 Mar 28 19:39 binhex.pyc
+-rw-r--r--   1 root root   2595 Mar  8 21:02 bisect.py
+-rw-r--r--   1 root root   3061 Mar 28 19:38 bisect.pyc
+drwxr-xr-x   2 root root   4096 Mar 28 19:39 bsddb
+-rw-r--r--   1 root root  23384 Mar  8 21:02 calendar.py
+-rw-r--r--   1 root root  27755 Mar 28 19:38 calendar.pyc
+-rw-r--r--   1 root root  13089 Mar  8 21:02 CGIHTTPServer.py
+-rw-r--r--   1 root root  10992 Mar 28 19:39 CGIHTTPServer.pyc
+-rwxr-xr-x   1 root root  35797 Mar  8 21:02 cgi.py
+-rw-r--r--   1 root root  32984 Mar 28 19:39 cgi.pyc
+-rw-r--r--   1 root root  12175 Mar  8 21:02 cgitb.py
+-rw-r--r--   1 root root  12102 Mar 28 19:39 cgitb.pyc
+-rw-r--r--   1 root root   5419 Mar  8 21:02 chunk.py
+-rw-r--r--   1 root root   5580 Mar 28 19:39 chunk.pyc
+-rw-r--r--   1 root root  15026 Mar  8 21:02 cmd.py
+-rw-r--r--   1 root root  13997 Mar 28 19:39 cmd.pyc
+-rw-r--r--   1 root root  36143 Mar  8 21:02 codecs.py
+-rw-r--r--   1 root root  36636 Mar 28 19:38 codecs.pyc
+-rw-r--r--   1 root root   5999 Mar  8 21:02 codeop.py
+-rw-r--r--   1 root root   6577 Mar 28 19:39 codeop.pyc
+-rw-r--r--   1 root root  10189 Mar  8 21:02 code.py
+-rw-r--r--   1 root root  10302 Mar 28 19:39 code.pyc
+-rw-r--r--   1 root root  27798 Mar  8 21:02 collections.py
+-rw-r--r--   1 root root  26059 Mar 28 19:38 collections.pyc
+-rw-r--r--   1 root root   3691 Mar  8 21:02 colorsys.py
+-rw-r--r--   1 root root   3975 Mar 28 19:39 colorsys.pyc
+-rw-r--r--   1 root root   2545 Mar  8 21:02 commands.py
+-rw-r--r--   1 root root   2457 Mar 28 19:39 commands.pyc
+-rw-r--r--   1 root root   7763 Mar  8 21:02 compileall.py
+-rw-r--r--   1 root root   7005 Mar 28 19:38 compileall.pyc
+drwxr-xr-x   2 root root   4096 Mar 28 19:39 compiler
+-rw-r--r--   1 root root  27746 Mar  8 21:02 ConfigParser.py
+-rw-r--r--   1 root root  25095 Mar 28 19:38 ConfigParser.pyc
+drwxr-xr-x   2 root root   4096 Mar 29 20:24 config-x86_64-linux-gnu
+drwxr-xr-x   2 root root   4096 Mar 29 21:47 config-x86_64-linux-gnu_d
+-rw-r--r--   1 root root   4424 Mar  8 21:02 contextlib.py
+-rw-r--r--   1 root root   4430 Mar 28 19:38 contextlib.pyc
+-rw-r--r--   1 root root  65486 Mar  8 21:02 cookielib.py
+-rw-r--r--   1 root root  54531 Mar 28 19:39 cookielib.pyc
+-rw-r--r--   1 root root  26538 Mar  8 21:02 Cookie.py
+-rw-r--r--   1 root root  22582 Mar 28 19:39 Cookie.pyc
+-rw-r--r--   1 root root  11533 Mar  8 21:02 copy.py
+-rw-r--r--   1 root root  12118 Mar 28 19:38 copy.pyc
+-rw-r--r--   1 root root   6974 Mar  8 21:02 copy_reg.py
+-rw-r--r--   1 root root   5145 Mar 28 19:38 copy_reg.pyc
+-rwxr-xr-x   1 root root   6573 Mar  8 21:02 cProfile.py
+-rw-r--r--   1 root root   6367 Mar 28 19:39 cProfile.pyc
+-rw-r--r--   1 root root  16708 Mar  8 21:02 csv.py
+-rw-r--r--   1 root root  13449 Mar 28 19:39 csv.pyc
+drwxr-xr-x   2 root root   4096 Mar 28 19:39 ctypes
+drwxr-xr-x   2 root root   4096 Mar 28 19:39 curses
+-rw-r--r--   1 root root    498 Mar  8 21:02 dbhash.py
+-rw-r--r--   1 root root    714 Mar 28 19:39 dbhash.pyc
+-rw-r--r--   1 root root 221933 Mar  8 21:02 decimal.py
+-rw-r--r--   1 root root 171645 Mar 28 19:39 decimal.pyc
+-rw-r--r--   1 root root  82325 Mar  8 21:02 difflib.py
+-rw-r--r--   1 root root  61790 Mar 28 19:39 difflib.pyc
+-rw-r--r--   1 root root   1126 Mar  8 21:02 dircache.py
+-rw-r--r--   1 root root   1568 Mar 28 19:39 dircache.pyc
+-rw-r--r--   1 root root   6499 Mar  8 21:02 dis.py
+-rw-r--r--   1 root root   6212 Mar 28 19:38 dis.pyc
+drwxr-xr-x  27 root root   4096 Mar 29 20:48 dist-packages
+drwxr-xr-x   3 root root   4096 Mar 28 19:39 distutils
+-rw-r--r--   1 root root 105095 Mar  8 21:02 doctest.py
+-rw-r--r--   1 root root  83395 Mar 28 19:39 doctest.pyc
+-rw-r--r--   1 root root  10768 Mar  8 21:02 DocXMLRPCServer.py
+-rw-r--r--   1 root root  10157 Mar 28 19:39 DocXMLRPCServer.pyc
+-rw-r--r--   1 root root   9141 Mar  8 21:02 dumbdbm.py
+-rw-r--r--   1 root root   6708 Mar 28 19:39 dumbdbm.pyc
+-rw-r--r--   1 root root   2804 Mar  8 21:02 dummy_threading.py
+-rw-r--r--   1 root root   1283 Mar 28 19:39 dummy_threading.pyc
+-rw-r--r--   1 root root   4418 Mar  8 21:02 dummy_thread.py
+-rw-r--r--   1 root root   5364 Mar 28 19:39 dummy_thread.pyc
+drwxr-xr-x   3 root root   4096 Mar 28 19:39 email
+drwxr-xr-x   2 root root  20480 Mar 28 19:38 encodings
+drwxr-xr-x   2 root root   4096 Mar 28 19:39 ensurepip
+-rw-r--r--   1 root root   9588 Mar  8 21:02 filecmp.py
+-rw-r--r--   1 root root   9582 Mar 28 19:39 filecmp.pyc
+-rw-r--r--   1 root root  13746 Mar  8 21:02 fileinput.py
+-rw-r--r--   1 root root  14440 Mar 28 19:39 fileinput.pyc
+-rw-r--r--   1 root root   3315 Mar  8 21:02 fnmatch.py
+-rw-r--r--   1 root root   3602 Mar 28 19:38 fnmatch.pyc
+-rw-r--r--   1 root root  14911 Mar  8 21:02 formatter.py
+-rw-r--r--   1 root root  19024 Mar 28 19:39 formatter.pyc
+-rw-r--r--   1 root root   4732 Mar  8 21:02 fpformat.py
+-rw-r--r--   1 root root   4687 Mar 28 19:39 fpformat.pyc
+-rw-r--r--   1 root root  22390 Mar  8 21:02 fractions.py
+-rw-r--r--   1 root root  19633 Mar 28 19:39 fractions.pyc
+-rw-r--r--   1 root root  38194 Mar  8 21:02 ftplib.py
+-rw-r--r--   1 root root  34617 Mar 28 19:39 ftplib.pyc
+-rw-r--r--   1 root root   4806 Mar  8 21:02 functools.py
+-rw-r--r--   1 root root   6569 Mar 28 19:38 functools.pyc
+-rw-r--r--   1 root root   4380 Mar  8 21:02 __future__.py
+-rw-r--r--   1 root root   4211 Mar 28 19:38 __future__.pyc
+-rw-r--r--   1 root root   3201 Mar  8 21:02 genericpath.py
+-rw-r--r--   1 root root   3495 Mar 28 19:38 genericpath.pyc
+-rw-r--r--   1 root root   7319 Mar  8 21:02 getopt.py
+-rw-r--r--   1 root root   6634 Mar 28 19:38 getopt.pyc
+-rw-r--r--   1 root root   5563 Mar  8 21:02 getpass.py
+-rw-r--r--   1 root root   4730 Mar 28 19:39 getpass.pyc
+-rw-r--r--   1 root root  23015 Mar  8 21:02 gettext.py
+-rw-r--r--   1 root root  18001 Mar 28 19:39 gettext.pyc
+-rw-r--r--   1 root root   3114 Mar  8 21:02 glob.py
+-rw-r--r--   1 root root   2927 Mar 28 19:38 glob.pyc
+-rw-r--r--   1 root root  19028 Mar  8 21:02 gzip.py
+-rw-r--r--   1 root root  15176 Mar 28 19:39 gzip.pyc
+-rw-r--r--   1 root root   7842 Mar  8 21:02 hashlib.py
+-rw-r--r--   1 root root   6891 Mar 28 19:38 hashlib.pyc
+-rw-r--r--   1 root root  18295 Mar  8 21:02 heapq.py
+-rw-r--r--   1 root root  14528 Mar 28 19:38 heapq.pyc
+-rw-r--r--   1 root root   4588 Mar  8 21:02 hmac.py
+-rw-r--r--   1 root root   4522 Mar 28 19:39 hmac.pyc
+drwxr-xr-x   2 root root   4096 Mar 28 19:39 hotshot
+-rw-r--r--   1 root root  18056 Mar  8 21:02 htmlentitydefs.py
+-rw-r--r--   1 root root   6365 Mar 28 19:39 htmlentitydefs.pyc
+-rw-r--r--   1 root root  12869 Mar  8 21:02 htmllib.py
+-rw-r--r--   1 root root  20127 Mar 28 19:39 htmllib.pyc
+-rw-r--r--   1 root root  17171 Mar  8 21:02 HTMLParser.py
+-rw-r--r--   1 root root  13663 Mar 28 19:39 HTMLParser.pyc
+-rw-r--r--   1 root root  52964 Mar  8 21:02 httplib.py
+-rw-r--r--   1 root root  38117 Mar 28 19:39 httplib.pyc
+-rw-r--r--   1 root root  18986 Mar  8 21:02 ihooks.py
+-rw-r--r--   1 root root  21234 Mar 28 19:39 ihooks.pyc
+-rw-r--r--   1 root root  48366 Mar  8 21:02 imaplib.py
+-rw-r--r--   1 root root  44817 Mar 28 19:39 imaplib.pyc
+-rw-r--r--   1 root root   3541 Mar  8 21:02 imghdr.py
+-rw-r--r--   1 root root   4806 Mar 28 19:39 imghdr.pyc
+drwxr-xr-x   2 root root   4096 Mar 28 19:39 importlib
+-rw-r--r--   1 root root  25764 Mar  8 21:02 imputil.py
+-rw-r--r--   1 root root  15547 Mar 28 19:39 imputil.pyc
+-rw-r--r--   1 root root  43008 Mar  8 21:02 inspect.py
+-rw-r--r--   1 root root  40091 Mar 28 19:38 inspect.pyc
+-rw-r--r--   1 root root   3322 Mar  8 21:02 io.py
+-rw-r--r--   1 root root   3579 Mar 28 19:38 io.pyc
+drwxr-xr-x   2 root root   4096 Mar 28 19:39 json
+-rwxr-xr-x   1 root root   1995 Mar  8 21:02 keyword.py
+-rw-r--r--   1 root root   2101 Mar 28 19:38 keyword.pyc
+drwxr-xr-x   4 root root   4096 Mar 28 19:39 lib2to3
+drwxr-xr-x   2 root root  12288 Mar 29 21:47 lib-dynload
+drwxr-xr-x   2 root root   4096 Mar 28 19:39 lib-tk
+-rw-r--r--   1 root root  12775 Mar  8 21:02 LICENSE.txt
+-rw-r--r--   1 root root   4027 Mar  8 21:02 linecache.py
+-rw-r--r--   1 root root   3260 Mar 28 19:38 linecache.pyc
+-rw-r--r--   1 root root 102838 Mar  8 21:02 locale.py
+-rw-r--r--   1 root root  56532 Mar 28 19:38 locale.pyc
+drwxr-xr-x   2 root root   4096 Mar 28 19:38 logging
+-rw-r--r--   1 root root   6553 Mar  8 21:02 _LWPCookieJar.py
+-rw-r--r--   1 root root   5422 Mar 28 19:39 _LWPCookieJar.pyc
+-rw-r--r--   1 root root   6289 Mar  8 21:02 macpath.py
+-rw-r--r--   1 root root   7643 Mar 28 19:39 macpath.pyc
+-rw-r--r--   1 root root   2731 Mar  8 21:02 macurl2path.py
+-rw-r--r--   1 root root   2236 Mar 28 19:39 macurl2path.pyc
+-rw-r--r--   1 root root  81240 Mar  8 21:02 mailbox.py
+-rw-r--r--   1 root root  76279 Mar 28 19:39 mailbox.pyc
+-rw-r--r--   1 root root   7429 Mar  8 21:02 mailcap.py
+-rw-r--r--   1 root root   7053 Mar 28 19:39 mailcap.pyc
+-rw-r--r--   1 root root  14643 Mar  8 21:02 markupbase.py
+-rw-r--r--   1 root root   9233 Mar 28 19:39 markupbase.pyc
+-rw-r--r--   1 root root    358 Mar  8 21:02 md5.py
+-rw-r--r--   1 root root    376 Mar 28 19:38 md5.pyc
+-rw-r--r--   1 root root  33434 Mar  8 21:02 mhlib.py
+-rw-r--r--   1 root root  33621 Mar 28 19:39 mhlib.pyc
+-rw-r--r--   1 root root   7168 Mar  8 21:02 mimetools.py
+-rw-r--r--   1 root root   8161 Mar 28 19:39 mimetools.pyc
+-rw-r--r--   1 root root  21028 Mar  8 21:02 mimetypes.py
+-rw-r--r--   1 root root  18451 Mar 28 19:39 mimetypes.pyc
+-rw-r--r--   1 root root   6482 Mar  8 21:02 MimeWriter.py
+-rw-r--r--   1 root root   7346 Mar 28 19:39 MimeWriter.pyc
+-rwxr-xr-x   1 root root  15020 Mar  8 21:02 mimify.py
+-rw-r--r--   1 root root  11971 Mar 28 19:39 mimify.pyc
+-rw-r--r--   1 root root  24461 Mar  8 21:02 modulefinder.py
+-rw-r--r--   1 root root  19057 Mar 28 19:39 modulefinder.pyc
+-rw-r--r--   1 root root   5797 Mar  8 21:02 _MozillaCookieJar.py
+-rw-r--r--   1 root root   4453 Mar 28 19:39 _MozillaCookieJar.pyc
+-rw-r--r--   1 root root   4820 Mar  8 21:02 multifile.py
+-rw-r--r--   1 root root   5390 Mar 28 19:39 multifile.pyc
+drwxr-xr-x   3 root root   4096 Mar 28 19:39 multiprocessing
+-rw-r--r--   1 root root   1878 Mar  8 21:02 mutex.py
+-rw-r--r--   1 root root   2502 Mar 28 19:39 mutex.pyc
+-rw-r--r--   1 root root   5888 Mar  8 21:02 netrc.py
+-rw-r--r--   1 root root   4696 Mar 28 19:39 netrc.pyc
+-rw-r--r--   1 root root    610 Mar  8 21:02 new.py
+-rw-r--r--   1 root root    860 Mar 28 19:39 new.pyc
+-rw-r--r--   1 root root  21470 Mar  8 21:02 nntplib.py
+-rw-r--r--   1 root root  20956 Mar 28 19:39 nntplib.pyc
+-rw-r--r--   1 root root  19429 Mar  8 21:02 ntpath.py
+-rw-r--r--   1 root root  13085 Mar 28 19:39 ntpath.pyc
+-rw-r--r--   1 root root   2419 Mar  8 21:02 nturl2path.py
+-rw-r--r--   1 root root   1809 Mar 28 19:39 nturl2path.pyc
+-rw-r--r--   1 root root  10319 Mar  8 21:02 numbers.py
+-rw-r--r--   1 root root  13888 Mar 28 19:39 numbers.pyc
+-rw-r--r--   1 root root   5474 Mar  8 21:02 opcode.py
+-rw-r--r--   1 root root   6135 Mar 28 19:38 opcode.pyc
+-rw-r--r--   1 root root  61203 Mar  8 21:02 optparse.py
+-rw-r--r--   1 root root  53614 Mar 28 19:38 optparse.pyc
+-rw-r--r--   1 root root   4635 Mar  8 21:02 os2emxpath.py
+-rw-r--r--   1 root root   4507 Mar 28 19:39 os2emxpath.pyc
+-rw-r--r--   1 root root  25910 Mar  8 21:02 os.py
+-rw-r--r--   1 root root  25583 Mar 28 19:38 os.pyc
+-rw-r--r--   1 root root  19100 Mar  8 21:02 _osx_support.py
+-rw-r--r--   1 root root  11720 Mar 28 19:39 _osx_support.pyc
+-rw-r--r--   1 root root   7914 Mar  8 21:02 pdb.doc
+-rwxr-xr-x   1 root root  46098 Mar  8 21:02 pdb.py
+-rw-r--r--   1 root root  43441 Mar 28 19:39 pdb.pyc
+-rw-r--r--   1 root root     64 Mar  8 21:02 __phello__.foo.py
+-rw-r--r--   1 root root    123 Mar 28 19:39 __phello__.foo.pyc
+-rw-r--r--   1 root root  45489 Mar  8 21:02 pickle.py
+-rw-r--r--   1 root root  38352 Mar 28 19:38 pickle.pyc
+-rw-r--r--   1 root root  74523 Mar  8 21:02 pickletools.py
+-rw-r--r--   1 root root  56968 Mar 28 19:39 pickletools.pyc
+-rw-r--r--   1 root root   9582 Mar  8 21:02 pipes.py
+-rw-r--r--   1 root root   9276 Mar 28 19:39 pipes.pyc
+-rw-r--r--   1 root root  20243 Mar  8 21:02 pkgutil.py
+-rw-r--r--   1 root root  18893 Mar 28 19:38 pkgutil.pyc
+-rwxr-xr-x   1 root root  53779 Mar  8 21:02 platform.py
+-rw-r--r--   1 root root  38549 Mar 28 19:38 platform.pyc
+drwxr-xr-x   2 root root   4096 Mar 29 21:49 plat-x86_64-linux-gnu
+-rw-r--r--   1 root root  15185 Mar  8 21:02 plistlib.py
+-rw-r--r--   1 root root  19123 Mar 28 19:39 plistlib.pyc
+-rw-r--r--   1 root root   8416 Mar  8 21:02 popen2.py
+-rw-r--r--   1 root root   8993 Mar 28 19:38 popen2.pyc
+-rw-r--r--   1 root root  12824 Mar  8 21:02 poplib.py
+-rw-r--r--   1 root root  13279 Mar 28 19:39 poplib.pyc
+-rw-r--r--   1 root root   8003 Mar  8 21:02 posixfile.py
+-rw-r--r--   1 root root   7628 Mar 28 19:39 posixfile.pyc
+-rw-r--r--   1 root root  14293 Mar  8 21:02 posixpath.py
+-rw-r--r--   1 root root  11416 Mar 28 19:38 posixpath.pyc
+-rw-r--r--   1 root root  11777 Mar  8 21:02 pprint.py
+-rw-r--r--   1 root root  10156 Mar 28 19:39 pprint.pyc
+-rwxr-xr-x   1 root root  22781 Mar  8 21:02 profile.py
+-rw-r--r--   1 root root  16378 Mar 28 19:39 profile.pyc
+-rw-r--r--   1 root root  26712 Mar  8 21:02 pstats.py
+-rw-r--r--   1 root root  24893 Mar 28 19:39 pstats.pyc
+-rw-r--r--   1 root root   5058 Mar  8 21:02 pty.py
+-rw-r--r--   1 root root   4946 Mar 28 19:39 pty.pyc
+-rw-r--r--   1 root root  13388 Mar  8 21:02 pyclbr.py
+-rw-r--r--   1 root root   9625 Mar 28 19:39 pyclbr.pyc
+-rw-r--r--   1 root root   6292 Mar  8 21:02 py_compile.py
+-rw-r--r--   1 root root   6611 Mar 28 19:38 py_compile.pyc
+drwxr-xr-x   2 root root   4096 Mar 28 19:39 pydoc_data
+-rwxr-xr-x   1 root root  96152 Mar  8 21:02 pydoc.py
+-rw-r--r--   1 root root  92392 Mar 28 19:39 pydoc.pyc
+-rw-r--r--   1 root root  69630 Mar  8 21:02 _pyio.py
+-rw-r--r--   1 root root  64351 Mar 28 19:39 _pyio.pyc
+-rw-r--r--   1 root root   8577 Mar  8 21:02 Queue.py
+-rw-r--r--   1 root root   9368 Mar 28 19:39 Queue.pyc
+-rwxr-xr-x   1 root root   6968 Mar  8 21:02 quopri.py
+-rw-r--r--   1 root root   6552 Mar 28 19:39 quopri.pyc
+-rw-r--r--   1 root root  32457 Mar  8 21:02 random.py
+-rw-r--r--   1 root root  25618 Mar 28 19:38 random.pyc
+-rw-r--r--   1 root root   4296 Mar  8 21:02 repr.py
+-rw-r--r--   1 root root   5351 Mar 28 19:38 repr.pyc
+-rw-r--r--   1 root root  13423 Mar  8 21:02 re.py
+-rw-r--r--   1 root root  13371 Mar 28 19:38 re.pyc
+-rw-r--r--   1 root root  20148 Mar  8 21:02 rexec.py
+-rw-r--r--   1 root root  23689 Mar 28 19:39 rexec.pyc
+-rw-r--r--   1 root root  33542 Mar  8 21:02 rfc822.py
+-rw-r--r--   1 root root  31693 Mar 28 19:39 rfc822.pyc
+-rw-r--r--   1 root root   5991 Mar  8 21:02 rlcompleter.py
+-rw-r--r--   1 root root   6062 Mar 28 19:39 rlcompleter.pyc
+-rw-r--r--   1 root root   7695 Mar  8 21:02 robotparser.py
+-rw-r--r--   1 root root   7955 Mar 28 19:39 robotparser.pyc
+-rw-r--r--   1 root root  11081 Mar  8 21:02 runpy.py
+-rw-r--r--   1 root root   8763 Mar 28 19:38 runpy.pyc
+-rw-r--r--   1 root root   5088 Mar  8 21:02 sched.py
+-rw-r--r--   1 root root   4976 Mar 28 19:39 sched.pyc
+-rw-r--r--   1 root root  19050 Mar  8 21:02 sets.py
+-rw-r--r--   1 root root  16783 Mar 28 19:39 sets.pyc
+-rw-r--r--   1 root root  17884 Mar  8 21:02 sgmllib.py
+-rw-r--r--   1 root root  15342 Mar 28 19:39 sgmllib.pyc
+-rw-r--r--   1 root root    393 Mar  8 21:02 sha.py
+-rw-r--r--   1 root root    419 Mar 28 19:38 sha.pyc
+-rw-r--r--   1 root root   8178 Mar  8 21:02 shelve.py
+-rw-r--r--   1 root root  10202 Mar 28 19:39 shelve.pyc
+-rw-r--r--   1 root root  11164 Mar  8 21:02 shlex.py
+-rw-r--r--   1 root root   7532 Mar 28 19:39 shlex.pyc
+-rw-r--r--   1 root root  19871 Mar  8 21:02 shutil.py
+-rw-r--r--   1 root root  19199 Mar 28 19:38 shutil.pyc
+-rw-r--r--   1 root root   7997 Mar  8 21:02 SimpleHTTPServer.py
+-rw-r--r--   1 root root   7988 Mar 28 19:39 SimpleHTTPServer.pyc
+-rw-r--r--   1 root root  25812 Mar  8 21:02 SimpleXMLRPCServer.py
+-rw-r--r--   1 root root  22791 Mar 28 19:39 SimpleXMLRPCServer.pyc
+lrwxrwxrwx   1 root root     31 Mar  8 21:02 sitecustomize.py -> /etc/python2.7/sitecustomize.py
+-rw-r--r--   1 root root    232 Mar 28 19:38 sitecustomize.pyc
+-rw-r--r--   1 root root  19947 Mar  8 21:02 site.py
+-rw-r--r--   1 root root  19535 Mar 28 19:38 site.pyc
+-rwxr-xr-x   1 root root  18542 Mar  8 21:02 smtpd.py
+-rw-r--r--   1 root root  15821 Mar 28 19:39 smtpd.pyc
+-rwxr-xr-x   1 root root  32134 Mar  8 21:02 smtplib.py
+-rw-r--r--   1 root root  30194 Mar 28 19:39 smtplib.pyc
+-rw-r--r--   1 root root   5973 Mar  8 21:02 sndhdr.py
+-rw-r--r--   1 root root   7327 Mar 28 19:39 sndhdr.pyc
+-rw-r--r--   1 root root  20615 Mar  8 21:02 socket.py
+-rw-r--r--   1 root root  16092 Mar 28 19:38 socket.pyc
+-rw-r--r--   1 root root  23948 Mar  8 21:02 SocketServer.py
+-rw-r--r--   1 root root  23973 Mar 28 19:39 SocketServer.pyc
+drwxr-xr-x   2 root root   4096 Mar 28 19:39 sqlite3
+-rw-r--r--   1 root root  19823 Mar  8 21:02 sre_compile.py
+-rw-r--r--   1 root root  12530 Mar 28 19:38 sre_compile.pyc
+-rw-r--r--   1 root root   7197 Mar  8 21:02 sre_constants.py
+-rw-r--r--   1 root root   6185 Mar 28 19:38 sre_constants.pyc
+-rw-r--r--   1 root root  30700 Mar  8 21:02 sre_parse.py
+-rw-r--r--   1 root root  21084 Mar 28 19:38 sre_parse.pyc
+-rw-r--r--   1 root root    384 Mar  8 21:02 sre.py
+-rw-r--r--   1 root root    517 Mar 28 19:38 sre.pyc
+-rw-r--r--   1 root root  37455 Mar  8 21:02 ssl.py
+-rw-r--r--   1 root root  32040 Mar 28 19:38 ssl.pyc
+-rw-r--r--   1 root root   1842 Mar  8 21:02 stat.py
+-rw-r--r--   1 root root   2731 Mar 28 19:38 stat.pyc
+-rw-r--r--   1 root root    898 Mar  8 21:02 statvfs.py
+-rw-r--r--   1 root root    618 Mar 28 19:39 statvfs.pyc
+-rw-r--r--   1 root root  10662 Mar  8 21:02 StringIO.py
+-rw-r--r--   1 root root  11442 Mar 28 19:38 StringIO.pyc
+-rw-r--r--   1 root root  12449 Mar  8 21:02 stringold.py
+-rw-r--r--   1 root root  12495 Mar 28 19:39 stringold.pyc
+-rw-r--r--   1 root root  13522 Mar  8 21:02 stringprep.py
+-rw-r--r--   1 root root  14447 Mar 28 19:38 stringprep.pyc
+-rw-r--r--   1 root root  21548 Mar  8 21:02 string.py
+-rw-r--r--   1 root root  20357 Mar 28 19:38 string.pyc
+-rw-r--r--   1 root root  20728 Mar  8 21:02 _strptime.py
+-rw-r--r--   1 root root  15132 Mar 28 19:39 _strptime.pyc
+-rw-r--r--   1 root root     82 Mar  8 21:02 struct.py
+-rw-r--r--   1 root root    237 Mar 28 19:38 struct.pyc
+-rw-r--r--   1 root root  50520 Mar  8 21:02 subprocess.py
+-rw-r--r--   1 root root  32290 Mar 28 19:38 subprocess.pyc
+-rw-r--r--   1 root root   1399 Mar  8 21:02 sunaudio.py
+-rw-r--r--   1 root root   1977 Mar 28 19:39 sunaudio.pyc
+-rw-r--r--   1 root root  17222 Mar  8 21:02 sunau.py
+-rw-r--r--   1 root root  18298 Mar 28 19:39 sunau.pyc
+-rwxr-xr-x   1 root root   2057 Mar  8 21:02 symbol.py
+-rw-r--r--   1 root root   3022 Mar 28 19:39 symbol.pyc
+-rw-r--r--   1 root root   7437 Mar  8 21:02 symtable.py
+-rw-r--r--   1 root root  11686 Mar 28 19:39 symtable.pyc
+-rw-r--r--   1 root root    126 Mar  8 21:02 _sysconfigdata.py
+-rw-r--r--   1 root root    279 Mar 28 19:38 _sysconfigdata.pyc
+-rw-r--r--   1 root root  25495 Mar  8 21:02 sysconfig.py
+-rw-r--r--   1 root root  18813 Mar 28 19:38 sysconfig.pyc
+-rwxr-xr-x   1 root root  11339 Mar  8 21:02 tabnanny.py
+-rw-r--r--   1 root root   8207 Mar 28 19:39 tabnanny.pyc
+-rw-r--r--   1 root root  90655 Mar  8 21:02 tarfile.py
+-rw-r--r--   1 root root  75849 Mar 28 19:39 tarfile.pyc
+-rw-r--r--   1 root root  27036 Mar  8 21:02 telnetlib.py
+-rw-r--r--   1 root root  23088 Mar 28 19:39 telnetlib.pyc
+-rw-r--r--   1 root root  19547 Mar  8 21:02 tempfile.py
+-rw-r--r--   1 root root  20236 Mar 28 19:38 tempfile.pyc
+drwxr-xr-x   3 root root   4096 Mar 28 19:39 test
+-rw-r--r--   1 root root  17280 Mar  8 21:02 textwrap.py
+-rw-r--r--   1 root root  12069 Mar 28 19:38 textwrap.pyc
+-rw-r--r--   1 root root   1002 Mar  8 21:02 this.py
+-rw-r--r--   1 root root   1218 Mar 28 19:39 this.pyc
+-rw-r--r--   1 root root   7260 Mar  8 21:02 _threading_local.py
+-rw-r--r--   1 root root   6355 Mar 28 19:39 _threading_local.pyc
+-rw-r--r--   1 root root  47116 Mar  8 21:02 threading.py
+-rw-r--r--   1 root root  42414 Mar 28 19:39 threading.pyc
+-rwxr-xr-x   1 root root  12791 Mar  8 21:02 timeit.py
+-rw-r--r--   1 root root  12157 Mar 28 19:39 timeit.pyc
+-rw-r--r--   1 root root   3142 Mar  8 21:02 toaiff.py
+-rw-r--r--   1 root root   3098 Mar 28 19:39 toaiff.pyc
+-rw-r--r--   1 root root  17483 Mar  8 21:02 tokenize.py
+-rw-r--r--   1 root root  14473 Mar 28 19:38 tokenize.pyc
+-rw-r--r--   1 root root   2922 Mar  8 21:02 token.py
+-rw-r--r--   1 root root   3806 Mar 28 19:38 token.pyc
+-rw-r--r--   1 root root  11285 Mar  8 21:02 traceback.py
+-rw-r--r--   1 root root  11639 Mar 28 19:38 traceback.pyc
+-rwxr-xr-x   1 root root  29891 Mar  8 21:02 trace.py
+-rw-r--r--   1 root root  22725 Mar 28 19:39 trace.pyc
+-rw-r--r--   1 root root    879 Mar  8 21:02 tty.py
+-rw-r--r--   1 root root   1311 Mar 28 19:39 tty.pyc
+-rw-r--r--   1 root root   2094 Mar  8 21:02 types.py
+-rw-r--r--   1 root root   2711 Mar 28 19:38 types.pyc
+drwxr-xr-x   2 root root   4096 Mar 28 19:39 unittest
+-rw-r--r--   1 root root  52807 Mar  8 21:02 urllib2.py
+-rw-r--r--   1 root root  47026 Mar 28 19:39 urllib2.pyc
+-rw-r--r--   1 root root  60228 Mar  8 21:02 urllib.py
+-rw-r--r--   1 root root  51035 Mar 28 19:39 urllib.pyc
+-rw-r--r--   1 root root  16678 Mar  8 21:02 urlparse.py
+-rw-r--r--   1 root root  15481 Mar 28 19:39 urlparse.pyc
+-rw-r--r--   1 root root   7060 Mar  8 21:02 UserDict.py
+-rw-r--r--   1 root root   9621 Mar 28 19:38 UserDict.pyc
+-rw-r--r--   1 root root   3644 Mar  8 21:02 UserList.py
+-rw-r--r--   1 root root   6509 Mar 28 19:39 UserList.pyc
+-rw-r--r--   1 root root   1627 Mar  8 21:02 user.py
+-rw-r--r--   1 root root   1722 Mar 28 19:39 user.pyc
+-rwxr-xr-x   1 root root   9687 Mar  8 21:02 UserString.py
+-rw-r--r--   1 root root  14728 Mar 28 19:39 UserString.pyc
+-rw-r--r--   1 root root  23175 Mar  8 21:02 uuid.py
+-rw-r--r--   1 root root  23103 Mar 28 19:39 uuid.pyc
+-rwxr-xr-x   1 root root   6697 Mar  8 21:02 uu.py
+-rw-r--r--   1 root root   4380 Mar 28 19:39 uu.pyc
+-rw-r--r--   1 root root  14823 Mar  8 21:02 warnings.py
+-rw-r--r--   1 root root  13464 Mar 28 19:38 warnings.pyc
+-rw-r--r--   1 root root  18582 Mar  8 21:02 wave.py
+-rw-r--r--   1 root root  19911 Mar 28 19:39 wave.pyc
+-rw-r--r--   1 root root  14830 Mar  8 21:02 weakref.py
+-rw-r--r--   1 root root  16335 Mar 28 19:38 weakref.pyc
+-rw-r--r--   1 root root   5911 Mar  8 21:02 _weakrefset.py
+-rw-r--r--   1 root root   9582 Mar 28 19:38 _weakrefset.pyc
+-rwxr-xr-x   1 root root  22725 Mar  8 21:02 webbrowser.py
+-rw-r--r--   1 root root  19660 Mar 28 19:39 webbrowser.pyc
+-rw-r--r--   1 root root   3379 Mar  8 21:02 whichdb.py
+-rw-r--r--   1 root root   2237 Mar 28 19:39 whichdb.pyc
+drwxr-xr-x   2 root root   4096 Mar 28 19:39 wsgiref
+-rw-r--r--   1 root root    187 Mar  8 21:02 wsgiref.egg-info
+-rw-r--r--   1 root root   6069 Mar  8 21:02 xdrlib.py
+-rw-r--r--   1 root root   9818 Mar 28 19:39 xdrlib.pyc
+drwxr-xr-x   6 root root   4096 Mar 28 19:39 xml
+-rw-r--r--   1 root root  34865 Mar  8 21:02 xmllib.py
+-rw-r--r--   1 root root  26740 Mar 28 19:39 xmllib.pyc
+-rw-r--r--   1 root root  52136 Mar  8 21:02 xmlrpclib.py
+-rw-r--r--   1 root root  43832 Mar 28 19:39 xmlrpclib.pyc
+-rw-r--r--   1 root root  59477 Mar  8 21:02 zipfile.py
+-rw-r--r--   1 root root  42015 Mar 28 19:39 zipfile.pyc
+wruslan@HPEliteBk8470p-ubstudio-20:~$ 
+
+===========================================================
+(2) /usr/lib/python3
+===========================================================
+wruslan@HPEliteBk8470p-ubstudio-20:~$ ls -al /usr/lib/python3
+total 44
+drwxr-xr-x   3 root root  4096 Feb 10 23:27 .
+drwxr-xr-x 190 root root 20480 Mar 31 15:06 ..
+drwxr-xr-x 290 root root 20480 Mar 31 15:05 dist-packages
+
+wruslan@HPEliteBk8470p-ubstudio-20:~$ ls -al /usr/lib/python3/dist-packages/
+total 11240
+drwxr-xr-x 290 root root   20480 Mar 31 15:05 .
+drwxr-xr-x   3 root root    4096 Feb 10 23:27 ..
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 altgraph
+drwxr-xr-x   2 root root    4096 Feb 10 23:33 altgraph-0.17.egg-info
+drwxr-xr-x   2 root root    4096 Feb 10 23:33 appdirs-1.4.3.egg-info
+-rw-r--r--   1 root root   24701 Mar  7  2017 appdirs.py
+drwxr-xr-x   4 root root    4096 Feb 10 23:39 apport
+-rw-r--r--   1 root root    8063 Jun  2  2020 apport_python_hook.py
+-rw-r--r--   1 root root     891 Feb 18  2020 apsw-3.28.0_r1.egg-info
+-rw-r--r--   1 root root  369160 Feb 18  2020 apsw.cpython-38d-x86_64-linux-gnu.so
+-rw-r--r--   1 root root  352776 Feb 18  2020 apsw.cpython-38-x86_64-linux-gnu.so
+drwxr-xr-x   4 root root    4096 Feb 10 23:38 apt
+drwxr-xr-x   4 root root    4096 Feb 10 23:39 aptdaemon
+-rw-r--r--   1 root root   60080 Jan 21 23:17 apt_inst.cpython-38-x86_64-linux-gnu.so
+drwxr-xr-x   2 root root    4096 Feb 10 23:30 apt_inst-stubs
+-rw-r--r--   1 root root  359376 Jan 21 23:17 apt_pkg.cpython-38-x86_64-linux-gnu.so
+drwxr-xr-x   2 root root    4096 Feb 10 23:30 apt_pkg-stubs
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 aptsources
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 arrow
+drwxr-xr-x   2 root root    4096 Feb 10 23:36 arrow-0.15.5.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 astor
+drwxr-xr-x   2 root root    4096 Feb 10 23:33 astor-0.8.1.egg-info
+drwxr-xr-x   5 root root    4096 Feb 10 23:38 babel
+drwxr-xr-x   2 root root    4096 Feb 10 23:36 Babel-2.6.0.egg-info
+drwxr-xr-x   3 root root    4096 Mar 31 10:37 backcall
+-rw-r--r--   1 root root    2453 Dec 31  2019 backcall-0.1.0.egg-info
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 beautifulsoup4-4.8.2.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 blinker
+-rw-r--r--   1 root root    3901 Jan 21  2020 blinker-1.4.egg-info
+drwxr-xr-x   8 root root    4096 Feb 10 23:39 blueman
+-rw-r--r--   1 root root  159880 Oct 31 06:27 _blueman.cpython-38-x86_64-linux-gnu.so
+drwxr-xr-x   5 root root    4096 Feb 10 23:38 bs4
+drwxr-xr-x   3 root root    4096 Feb 10 23:39 cairo
+drwxr-xr-x   3 root root    4096 Feb 10 23:39 catfish
+-rw-r--r--   1 root root     734 Jan 15  2020 catfish-1.4.13.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:39 catfish_lib
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 certifi
+drwxr-xr-x   2 root root    4096 Feb 10 23:30 certifi-2019.11.28.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 cffi
+drwxr-xr-x   2 root root    4096 Feb 10 23:30 cffi-1.14.0.egg-info
+-rw-r--r--   1 root root  186288 Feb 18  2020 _cffi_backend.cpython-38-x86_64-linux-gnu.so
+drwxr-xr-x   4 root root    4096 Feb 10 23:38 chardet
+drwxr-xr-x   2 root root    4096 Feb 10 23:30 chardet-3.0.4.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 chm
+drwxr-xr-x   3 root root    4096 Feb 10 23:37 click
+drwxr-xr-x   2 root root    4096 Feb 10 23:30 Click-7.0.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:37 colorama
+drwxr-xr-x   2 root root    4096 Feb 10 23:30 colorama-0.4.3.egg-info
+drwxr-xr-x   2 root root    4096 Feb 10 23:36 colour-0.1.5.egg-info
+-rw-r--r--   1 root root   28693 Dec 31  2017 colour.py
+drwxr-xr-x   4 root root    4096 Feb 10 23:38 CommandNotFound
+-rw-r--r--   1 root root     189 Aug  3  2020 command_not_found-0.3.egg-info
+drwxr-xr-x   3 root root    4096 Mar 29 21:49 cpuinfo
+drwxr-xr-x   5 root root    4096 Feb 10 23:38 cryptography
+drwxr-xr-x   2 root root    4096 Feb 10 23:32 cryptography-2.8.egg-info
+drwxr-xr-x   7 root root    4096 Feb 10 23:37 css_parser
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 css_parser-1.0.4.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 cssselect
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 cssselect-1.1.0.egg-info
+drwxr-xr-x   7 root root    4096 Feb 10 23:37 cssutils
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 cssutils-1.0.2.egg-info
+-rw-r--r--   1 root root  200848 Feb 18  2020 cups.cpython-38-x86_64-linux-gnu.so
+-rw-r--r--   1 root root   46120 Apr  1  2020 cupsext.cpython-38-x86_64-linux-gnu.so
+-rwxr-xr-x   1 root root    1053 Mar 29 20:41 cupsext.la
+-rwxr-xr-x   1 root root   54632 Mar 29 20:41 cupsext.so
+drwxr-xr-x   3 root root    4096 Feb 10 23:39 cupshelpers
+-rw-r--r--   1 root root     231 Nov  3 15:31 cupshelpers-1.0.egg-info
+drwxr-xr-x   2 root root    4096 Feb 10 23:36 cycler-0.10.0.egg-info
+-rw-r--r--   1 root root   15959 Feb 16  2016 cycler.py
+drwxr-xr-x   6 root root    4096 Feb 10 23:38 dateutil
+drwxr-xr-x   4 root root    4096 Feb 10 23:27 dbus
+-rw-r--r--   1 root root  180384 Feb 18  2020 _dbus_bindings.cpython-38d-x86_64-linux-gnu.so
+-rw-r--r--   1 root root  172192 Feb 18  2020 _dbus_bindings.cpython-38-x86_64-linux-gnu.so
+-rw-r--r--   1 root root   23080 Feb 18  2020 _dbus_glib_bindings.cpython-38d-x86_64-linux-gnu.so
+-rw-r--r--   1 root root   23080 Feb 18  2020 _dbus_glib_bindings.cpython-38-x86_64-linux-gnu.so
+-rw-r--r--   1 root root   14736 Feb 18  2020 dbus_py_test.cpython-38d-x86_64-linux-gnu.so
+drwxr-xr-x   2 root root    4096 Feb 10 23:27 dbus_python-1.2.16.egg-info
+-rw-r--r--   1 root root     273 Apr  8  2020 deb822.py
+-rw-r--r--   1 root root    6769 Aug  3  2019 debconf.py
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 debian
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 debian_bundle
+drwxr-xr-x   2 root root    4096 Mar 31 10:33 decorator-4.4.2.egg-info
+-rw-r--r--   1 root root   17222 Feb 29  2020 decorator.py
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 defer
+drwxr-xr-x   2 root root    4096 Feb 10 23:35 defer-1.0.6.egg-info
+drwxr-xr-x   2 root root    4096 Feb 10 23:32 distro-1.4.0.egg-info
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 distro_info-0.23ubuntu1.egg-info
+-rw-r--r--   1 root root   11155 Jan  9  2020 distro_info.py
+-rw-r--r--   1 root root   43251 Feb  4  2019 distro.py
+drwxr-xr-x   3 root root    4096 Feb 10 23:39 DistUpgrade
+drwxr-xr-x  19 root root    4096 Mar 31 14:24 django
+drwxr-xr-x   2 root root    4096 Mar 31 14:23 Django-2.2.12.egg-info
+drwxr-xr-x  15 root root    4096 Mar 31 14:24 django_extensions
+drwxr-xr-x   2 root root    4096 Mar 31 14:23 django_extensions-2.2.1.egg-info
+drwxr-xr-x   4 root root    4096 Feb 10 23:38 dns
+drwxr-xr-x   2 root root    4096 Feb 10 23:36 dnspython-1.16.0.egg-info
+drwxr-xr-x   3 root root    4096 Mar 31 14:24 dot2tex
+drwxr-xr-x   2 root root    4096 Mar 31 14:21 dot2tex-2.11.3.egg-info
+-rw-r--r--   1 root root   14952 Dec 13  2018 dot_parser.py
+drwxr-xr-x   4 root root    4096 Feb 10 23:39 easygui
+drwxr-xr-x   2 root root    4096 Feb 10 23:36 easygui-0.98.1.egg-info
+-rw-r--r--   1 root root     126 Feb  9  2020 easy_install.py
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 easywebdav
+drwxr-xr-x   2 root root    4096 Feb 10 23:33 easywebdav-1.2.0.egg-info
+drwxr-xr-x   7 root root    4096 Feb 10 23:37 elftools
+drwxr-xr-x   3 root root    4096 Feb 10 23:37 encutils
+-rw-r--r--   1 root root     226 Mar 30  2020 entrypoints.egg-info
+-rw-r--r--   1 root root    8184 Mar 30  2020 entrypoints.py
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 feedparser-5.2.1.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:37 feedparser_debian
+-rw-r--r--   1 root root  160152 Jan 24  2020 feedparser.py
+drwxr-xr-x   4 root root    4096 Feb 10 23:38 funcparserlib
+drwxr-xr-x   2 root root    4096 Feb 10 23:33 funcparserlib-0.3.6.egg-info
+drwxr-xr-x  10 root root    4096 Feb 10 23:38 future
+drwxr-xr-x   2 root root    4096 Feb 10 23:33 future-0.18.2.egg-info
+-rw-r--r--   1 root root    8696 Mar 30  2020 GDAL-3.0.4.egg-info
+-rw-r--r--   1 root root     143 Jan 28  2020 gdalconst.py
+-rw-r--r--   1 root root     147 Jan 28  2020 gdalnumeric.py
+-rw-r--r--   1 root root     128 Jan 28  2020 gdal.py
+drwxr-xr-x   5 root root    4096 Feb 10 23:33 gi
+-rw-r--r--   1 root root   61176 Aug 13  2019 gnupg.py
+drwxr-xr-x   3 root root    4096 Mar 31 14:29 Gnuplot
+drwxr-xr-x   2 root root    4096 Mar 31 14:29 gnuplotlib-0.32.egg-info
+-rw-r--r--   1 root root  113014 Nov 29  2019 gnuplotlib.py
+-rw-r--r--   1 root root     399 Sep  7  2019 gnuplot_py-1.8.egg-info
+drwxr-xr-x   3 root root    4096 Mar 31 05:40 google
+drwxr-xr-x   3 root root    4096 Feb 10 23:39 gphoto2
+-rw-r--r--   1 root root   23998 Jan 25  2020 gphoto2-1.9.0.egg-info
+drwxr-xr-x   3 root root    4096 Mar 31 14:24 graphviz
+drwxr-xr-x   2 root root    4096 Mar 31 14:23 graphviz-0.8.4.egg-info
+-rw-r--r--   1 root root   96504 Mar  3  2020 _gv.cpython-38-x86_64-linux-gnu.so
+-rw-r--r--   1 root root    4548 Mar  3  2020 gv.py
+-rw-r--r--   1 root root   19304 Apr  1  2020 hpmudext.cpython-38-x86_64-linux-gnu.so
+-rwxr-xr-x   1 root root    1031 Mar 29 20:41 hpmudext.la
+-rwxr-xr-x   1 root root   27312 Mar 29 20:41 hpmudext.so
+drwxr-xr-x   3 root root    4096 Feb 10 23:37 html2text
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 html2text-2020.1.16.egg-info
+drwxr-xr-x   8 root root    4096 Feb 10 23:38 html5lib
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 html5lib-1.0.1.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:39 html5_parser
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 html5_parser-0.4.9.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 httplib2
+drwxr-xr-x   2 root root    4096 Feb 10 23:32 httplib2-0.14.0.egg-info
+drwxr-xr-x   3 root root    4096 Mar 28 19:38 HweSupportStatus
+drwxr-xr-x   7 root root    4096 Feb 10 23:38 hy
+drwxr-xr-x   2 root root    4096 Feb 10 23:33 hy-0.18.0.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 idna
+drwxr-xr-x   2 root root    4096 Feb 10 23:30 idna-2.8.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 ifaddr
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 ifaddr-0.1.6.egg-info
+drwxr-xr-x  12 root root    4096 Mar 31 10:39 IPython
+drwxr-xr-x   2 root root    4096 Mar 31 10:33 ipython-7.13.0.egg-info
+drwxr-xr-x   5 root root    4096 Mar 31 10:37 ipython_genutils
+-rw-r--r--   1 root root     765 Mar 31  2020 ipython_genutils-0.2.0.egg-info
+drwxr-xr-x   4 root root    4096 Feb 10 23:38 isodate
+drwxr-xr-x   2 root root    4096 Feb 10 23:36 isodate-0.6.0.egg-info
+-rw-r--r--   1 root root   11199 Dec 21  2019 isympy.py
+drwxr-xr-x   2 root root    4096 Feb 10 23:30 JACK_Client-0.5.0.egg-info
+-rw-r--r--   1 root root   16076 Aug 22  2019 _jack.py
+-rw-r--r--   1 root root   99050 Jul 19  2019 jack.py
+drwxr-xr-x   4 root root    4096 Mar 28 19:38 janitor
+drwxr-xr-x   8 root root    4096 Mar 31 10:39 jedi
+drwxr-xr-x   2 root root    4096 Mar 31 10:33 jedi-0.15.2.egg-info
+drwxr-xr-x   4 root root    4096 Feb 10 23:37 jwt
+drwxr-xr-x   6 root root    4096 Feb 10 23:38 keyring
+drwxr-xr-x   2 root root    4096 Feb 10 23:32 keyring-18.0.1.egg-info
+drwxr-xr-x   2 root root    4096 Feb 10 23:36 kiwisolver-1.0.1.egg-info
+-rw-r--r--   1 root root  208624 Feb 18  2020 kiwisolver.cpython-38-x86_64-linux-gnu.so
+drwxr-xr-x   4 root root    4096 Feb 10 23:39 LanguageSelector
+drwxr-xr-x   2 root root    4096 Feb 10 23:30 language_selector-0.1.egg-info
+-rw-r--r--   1 root root    9930 Mar  6  2020 language_support_pkgs.py
+drwxr-xr-x   5 root root    4096 Feb 10 23:38 launchpadlib
+drwxr-xr-x   2 root root    4096 Feb 10 23:32 launchpadlib-1.10.13.egg-info
+drwxr-xr-x   4 root root    4096 Feb 10 23:32 lazr
+drwxr-xr-x   2 root root    4096 Feb 10 23:32 lazr.restfulclient-0.14.2.egg-info
+drwxr-xr-x   2 root root    4096 Feb 10 23:32 lazr.uri-1.0.3.egg-info
+drwxr-xr-x   4 root root    4096 Feb 10 23:38 libfuturize
+-rw-r--r--   1 root root  249304 Feb 18  2020 liblo.cpython-38-x86_64-linux-gnu.so
+drwxr-xr-x   4 root root    4096 Feb 10 23:38 libpasteurize
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 libraw
+-rw-r--r--   1 root root   15416 Mar 23  2020 libvirtaio.py
+-rw-r--r--   1 root root    1738 Mar 23  2020 libvirt_lxc.py
+-rw-r--r--   1 root root  336848 Mar 23  2020 libvirtmod.cpython-38-x86_64-linux-gnu.so
+-rw-r--r--   1 root root   35056 Mar 23  2020 libvirtmod_lxc.cpython-38-x86_64-linux-gnu.so
+-rw-r--r--   1 root root   35152 Mar 23  2020 libvirtmod_qemu.cpython-38-x86_64-linux-gnu.so
+-rw-r--r--   1 root root  352136 Mar 23  2020 libvirt.py
+-rw-r--r--   1 root root     831 Mar 23  2020 libvirt_python-6.1.0.egg-info
+-rw-r--r--   1 root root    3213 Mar 23  2020 libvirt_qemu.py
+drwxr-xr-x   3 root root    4096 Feb 10 23:39 lightdm_gtk_greeter_settings
+-rw-r--r--   1 root root     558 Dec 25  2019 lightdm_gtk_greeter_settings-1.2.2.egg-info
+lrwxrwxrwx   1 root root      38 Mar 28 18:50 lsb_release.py -> ../../../share/pyshared/lsb_release.py
+drwxr-xr-x   6 root root    4096 Mar 31 05:36 lxml
+drwxr-xr-x   2 root root    4096 Mar 31 05:36 lxml-4.5.0.egg-info
+drwxr-xr-x   8 root root    4096 Mar 31 05:43 macaroonbakery
+drwxr-xr-x   2 root root    4096 Mar 31 05:40 macaroonbakery-1.3.1.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 macholib
+drwxr-xr-x   2 root root    4096 Feb 10 23:33 macholib-1.14.egg-info
+drwxr-xr-x   4 root root    4096 Feb 10 23:38 markdown
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 Markdown-3.1.1.egg-info
+drwxr-xr-x  13 root root    4096 Feb 10 23:38 matplotlib
+drwxr-xr-x   2 root root    4096 Feb 10 23:36 matplotlib-3.1.2.egg-info
+-rw-r--r--   1 root root     569 Apr 14  2020 matplotlib-3.1.2-nspkg.pth
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 mechanize
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 mechanize-0.4.5.egg-info
+drwxr-xr-x   8 root root    4096 Feb 10 23:38 mpl_toolkits
+drwxr-xr-x   8 root root    4096 Mar 31 10:38 mpmath
+-rw-r--r--   1 root root     332 Feb  3  2020 mpmath-1.1.0.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 msgpack
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 msgpack-0.6.2.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:39 mugshot
+-rw-r--r--   1 root root     764 Aug  4  2019 mugshot-0.4.2.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:39 mugshot_lib
+drwxr-xr-x   5 root root    4096 Feb 10 23:27 nacl
+drwxr-xr-x   2 root root    4096 Feb 10 23:27 netifaces-0.10.4.egg-info
+-rw-r--r--   1 root root   27352 Feb 18  2020 netifaces.cpython-38d-x86_64-linux-gnu.so
+-rw-r--r--   1 root root   23224 Feb 18  2020 netifaces.cpython-38-x86_64-linux-gnu.so
+drwxr-xr-x   7 root root    4096 Feb 10 23:37 nose
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 nose-1.3.7.egg-info
+-rw-r--r--   1 root root    2453 Dec 13  2019 notify2-0.3.egg-info
+-rw-r--r--   1 root root   11710 May 15  2012 notify2.py
+-rw-r--r--   1 root root     367 Dec  1  2019 numpysane-0.21.egg-info
+-rw-r--r--   1 root root   70486 Dec  1  2019 numpysane.py
+-rw-r--r--   1 root root   14666 Dec  1  2019 numpysane_pywrap.py
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 NvidiaDetector
+drwxr-xr-x   6 root root    4096 Feb 10 23:38 oauthlib
+drwxr-xr-x   2 root root    4096 Feb 10 23:32 oauthlib-3.1.0.egg-info
+drwxr-xr-x   2 root root    4096 Mar 31 14:23 objgraph-3.4.1.egg-info
+-rw-r--r--   1 root root   41623 Apr 24  2019 objgraph.py
+-rw-r--r--   1 root root     125 Jan 28  2020 ogr.py
+drwxr-xr-x   3 root root    4096 Feb 10 23:37 olefile
+drwxr-xr-x   2 root root    4096 Feb 10 23:36 olefile-0.46.egg-info
+drwxr-xr-x   4 root root    4096 Feb 10 23:39 Onboard
+-rw-r--r--   1 root root     338 Feb 18  2020 onboard-1.4.1.egg-info
+-rw-r--r--   1 root root 2533968 Mar 26  2020 _openshot.cpython-38-x86_64-linux-gnu.so
+-rw-r--r--   1 root root  201934 Mar 26  2020 openshot.py
+drwxr-xr-x  16 root root    4096 Feb 10 23:39 openshot_qt
+drwxr-xr-x   2 root root    4096 Feb 10 23:36 openshot_qt-2.4.3.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:39 ordlookup
+drwxr-xr-x   3 root root    4096 Mar 31 15:07 osgeo
+-rw-r--r--   1 root root     125 Jan 28  2020 osr.py
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 packaging
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 packaging-20.3.egg-info
+drwxr-xr-x   5 root root    4096 Mar 31 10:37 parso
+drwxr-xr-x   2 root root    4096 Mar 31 10:33 parso-0.5.2.egg-info
+drwxr-xr-x   7 root root    4096 Feb 10 23:38 past
+drwxr-xr-x   6 root root    4096 Feb 10 23:38 pbr
+drwxr-xr-x   2 root root    4096 Feb 10 23:36 pbr-5.4.5.egg-info
+-rw-r--r--   1 root root   23208 Apr  1  2020 pcardext.cpython-38-x86_64-linux-gnu.so
+-rwxr-xr-x   1 root root     948 Mar 29 20:41 pcardext.la
+-rwxr-xr-x   1 root root   31960 Mar 29 20:41 pcardext.so
+drwxr-xr-x   3 root root    4096 Feb 10 23:39 pdfarranger
+drwxr-xr-x   2 root root    4096 Feb 10 23:36 pdfarranger-1.4.2.egg-info
+drwxr-xr-x   2 root root    4096 Feb 10 23:33 pefile-2019.4.18.egg-info
+-rw-r--r--   1 root root  230141 Apr 19  2019 pefile.py
+-rw-r--r--   1 root root   18205 Oct 21  2018 peutils.py
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 pexpect
+-rw-r--r--   1 root root    2285 Dec 17  2019 pexpect-4.6.0.egg-info
+drwxr-xr-x   2 root root    4096 Mar 31 10:33 pickleshare-0.7.5.egg-info
+-rw-r--r--   1 root root    9942 Sep 26  2018 pickleshare.py
+drwxr-xr-x   3 root root   20480 Mar 28 19:39 PIL
+drwxr-xr-x   2 root root    4096 Mar 28 19:36 Pillow-7.0.0.egg-info
+drwxr-xr-x   5 root root    4096 Mar 29 20:33 pip
+drwxr-xr-x   2 root root    4096 Mar 29 20:33 pip-20.0.2.egg-info
+drwxr-xr-x   5 root root    4096 Feb 10 23:27 pkg_resources
+drwxr-xr-x   3 root root    4096 Feb 10 23:37 ply
+drwxr-xr-x   2 root root    4096 Feb 10 23:30 ply-3.11.egg-info
+-rw-r--r--   1 root root  435120 Feb 18  2020 popplerqt5.cpython-38-x86_64-linux-gnu.so
+-rw-r--r--   1 root root   26241 Dec 13  2019 problem_report.py
+drwxr-xr-x  18 root root    4096 Mar 31 10:38 prompt_toolkit
+drwxr-xr-x   2 root root    4096 Mar 31 10:33 prompt_toolkit-2.0.10.egg-info
+drwxr-xr-x   2 root root    4096 Mar 31 05:40 protobuf-3.6.1.egg-info
+drwxr-xr-x   4 root root    4096 Feb 10 23:37 psutil
+-rw-r--r--   1 root root   26331 Feb 18  2020 psutil-5.5.1.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 ptyprocess
+drwxr-xr-x   2 root root    4096 Mar 31 15:07 __pycache__
+-rw-r--r--   1 root root    3835 Feb 18  2020 pycairo-1.16.2.egg-info
+drwxr-xr-x   4 root root    4096 Mar 31 14:24 pycallgraph
+drwxr-xr-x   2 root root    4096 Mar 31 14:23 pycallgraph-1.1.3.egg-info
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 pychm-0.8.6.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 pycparser
+-rw-r--r--   1 root root     909 Mar 30  2020 pycparser-2.19.egg-info
+drwxr-xr-x   2 root root    4096 Mar 29 21:47 py_cpuinfo-5.0.0.egg-info
+-rw-r--r--   1 root root    1341 Feb 18  2020 pycups-1.9.73.egg-info
+drwxr-xr-x   2 root root    4096 Mar 31 14:23 pydot-1.4.1.egg-info
+drwxr-xr-x   3 root root    4096 Mar 31 14:24 pydot_ng
+drwxr-xr-x   2 root root    4096 Mar 31 14:23 pydot_ng-1.0.0.egg-info
+drwxr-xr-x   3 root root    4096 Mar 31 14:24 pydotplus
+drwxr-xr-x   2 root root    4096 Mar 31 14:23 pydotplus-2.0.2.egg-info
+-rw-r--r--   1 root root   54286 Jan  9  2020 pydot.py
+drwxr-xr-x   2 root root    4096 Feb 10 23:33 pyelftools-0.26.egg-info
+drwxr-xr-x   7 root root    4096 Mar 31 05:36 pygments
+drwxr-xr-x   2 root root    4096 Mar 31 05:36 Pygments-2.3.1.egg-info
+drwxr-xr-x   2 root root    4096 Mar 31 14:29 PyGnuplot-0.11.16.egg-info
+-rw-r--r--   1 root root    3744 Feb 27  2018 PyGnuplot.py
+drwxr-xr-x   2 root root    4096 Feb 10 23:27 PyGObject-3.36.0.egg-info
+drwxr-xr-x   4 root root    4096 Mar 31 14:24 pygraphviz
+drwxr-xr-x   2 root root    4096 Mar 31 14:23 pygraphviz-1.5.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:27 pygtkcompat
+drwxr-xr-x   2 root root    4096 Feb 10 23:32 PyJWT-1.7.1.egg-info
+-rw-r--r--   1 root root      90 Nov  6  2019 pylab.py
+drwxr-xr-x   2 root root    4096 Feb 10 23:33 pyliblo-0.10.0.egg-info
+drwxr-xr-x   7 root root    4096 Feb 10 23:27 pymacaroons
+drwxr-xr-x   2 root root    4096 Feb 10 23:27 pymacaroons-0.13.0.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:39 pymediainfo
+drwxr-xr-x   2 root root    4096 Feb 10 23:36 pymediainfo-4.1.egg-info
+drwxr-xr-x   2 root root    4096 Feb 10 23:27 PyNaCl-1.3.0.egg-info
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 pyparsing-2.4.6.egg-info
+-rw-r--r--   1 root root  272400 Dec 25  2019 pyparsing.py
+drwxr-xr-x   4 root root   12288 Mar 31 13:57 PyQt5
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 PyQt5-5.14.1.dist-info
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 PyQtWebEngine-5.14.0.dist-info
+drwxr-xr-x   3 root root    4096 Mar 31 05:43 pyrfc3339
+drwxr-xr-x   2 root root    4096 Mar 31 05:40 pyRFC3339-1.1.egg-info
+drwxr-xr-x   2 root root    4096 Feb 10 23:30 python_apt-2.0.0+ubuntu0.20.4.4.egg-info
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 python_dateutil-2.7.3.egg-info
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 python_debian-0.1.36ubuntu1.egg-info
+-rw-r--r--   1 root root    1542 Dec 31  2019 python_gnupg-0.4.5.egg-info
+drwxr-xr-x   2 root root    4096 Mar 31 13:55 python_poppler_qt5-0.24.2.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 pytz
+drwxr-xr-x   2 root root    4096 Feb 10 23:36 pytz-2019.3.egg-info
+-rw-r--r--   1 root root     576 Jan 16  2020 pyxdg-0.26.egg-info
+-rw-r--r--   1 root root    1781 Mar 19  2020 PyYAML-5.3.1.egg-info
+-rw-r--r--   1 root root    5659 Mar  7  2020 pyzmq-18.1.1.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 Quirks
+drwxr-xr-x   3 root root    4096 Feb 10 23:39 raphodo
+drwxr-xr-x   2 root root    4096 Feb 10 23:37 rapid_photo_downloader-0.9.23a1.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 rawkit
+drwxr-xr-x   2 root root    4096 Feb 10 23:36 rawkit-0.6.0.egg-info
+drwxr-xr-x   6 root root    4096 Feb 10 23:38 rdflib
+drwxr-xr-x   2 root root    4096 Feb 10 23:36 rdflib-4.2.2.egg-info
+drwxr-xr-x   4 root root    4096 Feb 10 23:38 regex
+-rw-r--r--   1 root root   44428 Feb 18  2020 regex-2019.08.19.egg-info
+drwxr-xr-x   8 root root    4096 Feb 10 23:39 reportlab
+drwxr-xr-x   2 root root    4096 Feb 10 23:34 reportlab-3.5.34.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:31 repoze
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 repoze.lru-0.7.egg-info
+-rw-r--r--   1 root root     539 Jan 20  2020 repoze.lru-0.7-nspkg.pth
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 requests
+drwxr-xr-x   2 root root    4096 Feb 10 23:30 requests-2.22.0.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:39 requests_unixsocket
+drwxr-xr-x   2 root root    4096 Feb 10 23:30 requests_unixsocket-0.2.0.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:39 routes
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 Routes-2.4.1.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 rply
+drwxr-xr-x   2 root root    4096 Feb 10 23:33 rply-0.7.7.egg-info
+-rw-r--r--   1 root root   23912 Apr  1  2020 scanext.cpython-38-x86_64-linux-gnu.so
+-rwxr-xr-x   1 root root     949 Mar 29 20:41 scanext.la
+-rwxr-xr-x   1 root root   33392 Mar 29 20:41 scanext.so
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 secretstorage
+drwxr-xr-x   2 root root    4096 Feb 10 23:32 SecretStorage-2.3.1.egg-info
+drwxr-xr-x   6 root root    4096 Feb 10 23:38 setuptools
+drwxr-xr-x   2 root root    4096 Feb 10 23:33 setuptools-45.2.0.egg-info
+drwxr-xr-x   4 root root    4096 Feb 10 23:38 simplejson
+-rw-r--r--   1 root root    3039 Feb 18  2020 simplejson-3.16.0.egg-info
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 sip-4.19.21.dist-info
+-rw-r--r--   1 root root   97139 Feb 18  2020 sipconfig_d8.py
+-rw-r--r--   1 root root   97099 Feb 18  2020 sipconfig_nd8.py
+-rw-r--r--   1 root root     511 Feb 18  2020 sipconfig.py
+-rw-r--r--   1 root root  818360 Feb 18  2020 sip.cpython-38d-x86_64-linux-gnu.so
+-rw-r--r--   1 root root  161176 Feb 18  2020 sip.cpython-38-x86_64-linux-gnu.so
+-rw-r--r--   1 root root    6041 Feb 18  2020 sipdistutils.py
+-rw-r--r--   1 root root    2801 Feb 18  2020 sip.pyi
+drwxr-xr-x   5 root root    4096 Mar 28 19:39 softwareproperties
+drwxr-xr-x   3 root root    4096 Feb 10 23:37 sortedcontainers
+drwxr-xr-x   2 root root    4096 Feb 10 23:36 sortedcontainers-2.1.0.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 soupsieve
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 soupsieve-1.9.5.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 SPARQLWrapper
+drwxr-xr-x   2 root root    4096 Feb 10 23:36 SPARQLWrapper-1.8.5.egg-info
+drwxr-xr-x   5 root root    4096 Mar 31 14:24 sqlparse
+drwxr-xr-x   2 root root    4096 Mar 31 14:23 sqlparse-0.2.4.egg-info
+drwxr-xr-x  43 root root    4096 Mar 31 10:39 sympy
+-rw-r--r--   1 root root    1570 Mar  2  2020 sympy-1.5.1.egg-info
+drwxr-xr-x   4 root root    4096 Feb 10 23:38 systemd
+-rw-r--r--   1 root root     586 Feb 18  2020 systemd_python-234.egg-info
+-rw-r--r--   1 root root     186 Nov 15  2019 system_service-0.3.egg-info
+-rw-r--r--   1 root root   16016 Jan 27  2020 talloc.cpython-38-x86_64-linux-gnu.so
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 tenacity
+drwxr-xr-x   2 root root    4096 Feb 10 23:36 tenacity-6.0.0.egg-info
+drwxr-xr-x   5 root root    4096 Feb 10 23:37 tornado
+drwxr-xr-x   2 root root    4096 Feb 10 23:36 tornado-5.1.1.egg-info
+drwxr-xr-x   6 root root    4096 Mar 31 10:38 traitlets
+drwxr-xr-x   2 root root    4096 Mar 31 10:33 traitlets-4.3.3.egg-info
+drwxr-xr-x   5 root root    4096 Feb 10 23:27 uaclient
+drwxr-xr-x   2 root root    4096 Feb 10 23:27 ubuntu_advantage_tools-20.3.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 UbuntuDrivers
+drwxr-xr-x   2 root root    4096 Feb 10 23:30 ubuntu_drivers_common-0.0.0.egg-info
+drwxr-xr-x   3 root root    4096 Mar 31 05:43 UbuntuSystemService
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 ufw
+-rw-r--r--   1 root root     261 Apr  2  2020 ufw-0.36.egg-info
+drwxr-xr-x   2 root root    4096 Feb 10 23:37 unattended_upgrades-0.1.egg-info
+-rw-r--r--   1 root root   10957 Aug  7  2020 unohelper.py
+-rw-r--r--   1 root root   17520 Aug 25  2020 uno.py
+drwxr-xr-x   5 root root    4096 Mar 28 19:36 UpdateManager
+drwxr-xr-x   6 root root    4096 Feb 10 23:38 urllib3
+drwxr-xr-x   2 root root    4096 Feb 10 23:30 urllib3-1.25.8.egg-info
+drwxr-xr-x   4 root root    4096 Feb 10 23:38 wadllib
+drwxr-xr-x   2 root root    4096 Feb 10 23:32 wadllib-1.3.3.egg-info
+drwxr-xr-x   4 root root    4096 Mar 31 10:38 wcwidth
+drwxr-xr-x   2 root root    4096 Mar 31 10:33 wcwidth-0.1.8.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:37 webencodings
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 webencodings-0.5.1.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 webob
+drwxr-xr-x   2 root root    4096 Feb 10 23:36 WebOb-1.8.5.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:37 xdg
+drwxr-xr-x   5 root root    4096 Mar 31 14:24 xdot
+drwxr-xr-x   2 root root    4096 Mar 31 14:23 xdot-1.1.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 xkit
+-rw-r--r--   1 root root     266 Jan 12  2020 xkit-0.0.0.egg-info
+drwxr-xr-x   3 root root    4096 Feb 10 23:27 yaml
+-rw-r--r--   1 root root  283376 Mar 19  2020 _yaml.cpython-38-x86_64-linux-gnu.so
+drwxr-xr-x   3 root root    4096 Feb 10 23:38 zeroconf
+drwxr-xr-x   2 root root    4096 Feb 10 23:31 zeroconf-0.24.4.egg-info
+drwxr-xr-x  14 root root    4096 Feb 10 23:39 zmq
+wruslan@HPEliteBk8470p-ubstudio-20:~$ 
+
+===========================================================
+(3) /usr/lib/python3.8
+===========================================================
+wruslan@HPEliteBk8470p-ubstudio-20:~$ ls -al /usr/lib/python3.8
+total 5000
+drwxr-xr-x  34 root root  20480 Mar 31 05:41 .
+drwxr-xr-x 190 root root  20480 Mar 31 15:06 ..
+-rw-r--r--   1 root root   4489 Jan 27 23:41 abc.py
+-rw-r--r--   1 root root  32814 Jan 27 23:41 aifc.py
+-rw-r--r--   1 root root    477 Jan 27 23:41 antigravity.py
+-rw-r--r--   1 root root  96311 Jan 27 23:41 argparse.py
+-rw-r--r--   1 root root  18895 Jan 27 23:41 ast.py
+-rw-r--r--   1 root root  11328 Jan 27 23:41 asynchat.py
+drwxr-xr-x   3 root root   4096 Mar 28 19:39 asyncio
+-rw-r--r--   1 root root  20094 Jan 27 23:41 asyncore.py
+-rwxr-xr-x   1 root root  20380 Jan 27 23:41 base64.py
+-rw-r--r--   1 root root  32056 Jan 27 23:41 bdb.py
+-rw-r--r--   1 root root  13954 Jan 27 23:41 binhex.py
+-rw-r--r--   1 root root   2214 Jan 27 23:41 bisect.py
+-rw-r--r--   1 root root   1801 Jan 27 23:41 _bootlocale.py
+-rw-r--r--   1 root root  12558 Jan 27 23:41 bz2.py
+-rw-r--r--   1 root root  24832 Jan 27 23:41 calendar.py
+-rwxr-xr-x   1 root root  33605 Jan 27 23:41 cgi.py
+-rw-r--r--   1 root root  12096 Jan 27 23:41 cgitb.py
+-rw-r--r--   1 root root   5435 Jan 27 23:41 chunk.py
+-rw-r--r--   1 root root  14860 Jan 27 23:41 cmd.py
+-rw-r--r--   1 root root  36667 Jan 27 23:41 codecs.py
+-rw-r--r--   1 root root   6275 Jan 27 23:41 codeop.py
+-rw-r--r--   1 root root  10622 Jan 27 23:41 code.py
+drwxr-xr-x   3 root root   4096 Mar 28 19:34 collections
+-rw-r--r--   1 root root  26100 Jan 27 23:41 _collections_abc.py
+-rw-r--r--   1 root root   4064 Jan 27 23:41 colorsys.py
+-rw-r--r--   1 root root   8749 Jan 27 23:41 _compat_pickle.py
+-rw-r--r--   1 root root  13678 Jan 27 23:41 compileall.py
+-rw-r--r--   1 root root   5340 Jan 27 23:41 _compression.py
+drwxr-xr-x   4 root root   4096 Mar 28 19:39 concurrent
+drwxr-xr-x   3 root root   4096 Mar 31 13:57 config-3.8d-x86_64-linux-gnu
+drwxr-xr-x   2 root root   4096 Mar 29 20:24 config-3.8-x86_64-linux-gnu
+-rw-r--r--   1 root root  54374 Jan 27 23:41 configparser.py
+-rw-r--r--   1 root root  24995 Jan 27 23:41 contextlib.py
+-rw-r--r--   1 root root    129 Jan 27 23:41 contextvars.py
+-rw-r--r--   1 root root   8661 Jan 27 23:41 copy.py
+-rw-r--r--   1 root root   7135 Jan 27 23:41 copyreg.py
+-rwxr-xr-x   1 root root   6598 Jan 27 23:41 cProfile.py
+-rw-r--r--   1 root root   3610 Jan 27 23:41 crypt.py
+-rw-r--r--   1 root root  16144 Jan 27 23:41 csv.py
+drwxr-xr-x   4 root root   4096 Mar 29 21:47 ctypes
+drwxr-xr-x   3 root root   4096 Mar 28 19:39 curses
+-rw-r--r--   1 root root  49936 Jan 27 23:41 dataclasses.py
+-rw-r--r--   1 root root  88074 Jan 27 23:41 datetime.py
+drwxr-xr-x   3 root root   4096 Mar 28 19:39 dbm
+-rw-r--r--   1 root root    320 Jan 27 23:41 decimal.py
+-rw-r--r--   1 root root  84058 Jan 27 23:41 difflib.py
+-rw-r--r--   1 root root  20566 Jan 27 23:41 dis.py
+drwxr-xr-x   5 root root   4096 Mar 29 21:47 distutils
+-rw-r--r--   1 root root 104543 Jan 27 23:41 doctest.py
+-rw-r--r--   1 root root   2815 Jan 27 23:41 dummy_threading.py
+-rw-r--r--   1 root root   6027 Jan 27 23:41 _dummy_thread.py
+drwxr-xr-x   4 root root   4096 Mar 28 19:36 email
+drwxr-xr-x   3 root root  20480 Mar 28 19:34 encodings
+-rw-r--r--   1 root root  34882 Jan 27 23:41 enum.py
+-rw-r--r--   1 root root   9830 Jan 27 23:41 filecmp.py
+-rw-r--r--   1 root root  14709 Jan 27 23:41 fileinput.py
+-rw-r--r--   1 root root   4056 Jan 27 23:41 fnmatch.py
+-rw-r--r--   1 root root  15143 Jan 27 23:41 formatter.py
+-rw-r--r--   1 root root  24329 Jan 27 23:41 fractions.py
+-rw-r--r--   1 root root  34768 Jan 27 23:41 ftplib.py
+-rw-r--r--   1 root root  37406 Jan 27 23:41 functools.py
+-rw-r--r--   1 root root   5109 Jan 27 23:41 __future__.py
+-rw-r--r--   1 root root   4975 Jan 27 23:41 genericpath.py
+-rw-r--r--   1 root root   7489 Jan 27 23:41 getopt.py
+-rw-r--r--   1 root root   5994 Jan 27 23:41 getpass.py
+-rw-r--r--   1 root root  27565 Jan 27 23:41 gettext.py
+-rw-r--r--   1 root root   5697 Jan 27 23:41 glob.py
+-rw-r--r--   1 root root  21441 Jan 27 23:41 gzip.py
+-rw-r--r--   1 root root   9730 Jan 27 23:41 hashlib.py
+-rw-r--r--   1 root root  22877 Jan 27 23:41 heapq.py
+-rw-r--r--   1 root root   6629 Jan 27 23:41 hmac.py
+drwxr-xr-x   3 root root   4096 Mar 28 19:39 html
+drwxr-xr-x   3 root root   4096 Mar 28 19:36 http
+drwxr-xr-x   3 root root   4096 Mar 29 21:47 idlelib
+-rw-r--r--   1 root root  53606 Jan 27 23:41 imaplib.py
+-rw-r--r--   1 root root   3808 Jan 27 23:41 imghdr.py
+drwxr-xr-x   3 root root   4096 Mar 28 19:34 importlib
+-rw-r--r--   1 root root  10536 Jan 27 23:41 imp.py
+-rw-r--r--   1 root root 118040 Jan 27 23:41 inspect.py
+-rw-r--r--   1 root root   3541 Jan 27 23:41 io.py
+-rw-r--r--   1 root root  71172 Jan 27 23:41 ipaddress.py
+drwxr-xr-x   3 root root   4096 Mar 28 19:39 json
+-rw-r--r--   1 root root    945 Jan 27 23:41 keyword.py
+drwxr-xr-x   6 root root   4096 Mar 29 21:47 lib2to3
+drwxr-xr-x   2 root root  12288 Mar 29 21:47 lib-dynload
+-rw-r--r--   1 root root  12775 Jan 27 23:41 LICENSE.txt
+-rw-r--r--   1 root root   5330 Jan 27 23:41 linecache.py
+-rw-r--r--   1 root root  78195 Jan 27 23:41 locale.py
+drwxr-xr-x   3 root root   4096 Mar 28 19:34 logging
+-rw-r--r--   1 root root  12983 Jan 27 23:41 lzma.py
+-rw-r--r--   1 root root  78661 Jan 27 23:41 mailbox.py
+-rw-r--r--   1 root root   8104 Jan 27 23:41 mailcap.py
+-rw-r--r--   1 root root  14598 Jan 27 23:41 _markupbase.py
+-rw-r--r--   1 root root  21664 Jan 27 23:41 mimetypes.py
+-rw-r--r--   1 root root  24430 Jan 27 23:41 modulefinder.py
+drwxr-xr-x   4 root root   4096 Mar 28 19:39 multiprocessing
+-rw-r--r--   1 root root   5566 Jan 27 23:41 netrc.py
+-rw-r--r--   1 root root  43261 Jan 27 23:41 nntplib.py
+-rw-r--r--   1 root root  27734 Jan 27 23:41 ntpath.py
+-rw-r--r--   1 root root   2584 Jan 27 23:41 nturl2path.py
+-rw-r--r--   1 root root  10244 Jan 27 23:41 numbers.py
+-rw-r--r--   1 root root   5808 Jan 27 23:41 opcode.py
+-rw-r--r--   1 root root  10711 Jan 27 23:41 operator.py
+-rw-r--r--   1 root root  60369 Jan 27 23:41 optparse.py
+-rw-r--r--   1 root root  38995 Jan 27 23:41 os.py
+-rw-r--r--   1 root root  19600 Jan 27 23:41 _osx_support.py
+-rw-r--r--   1 root root  51839 Jan 27 23:41 pathlib.py
+-rwxr-xr-x   1 root root  62676 Jan 27 23:41 pdb.py
+-rw-r--r--   1 root root     64 Jan 27 23:41 __phello__.foo.py
+-rw-r--r--   1 root root  64396 Jan 27 23:41 pickle.py
+-rw-r--r--   1 root root  93486 Jan 27 23:41 pickletools.py
+-rw-r--r--   1 root root   8916 Jan 27 23:41 pipes.py
+-rw-r--r--   1 root root  21461 Jan 27 23:41 pkgutil.py
+-rwxr-xr-x   1 root root  40327 Jan 27 23:41 platform.py
+-rw-r--r--   1 root root  31251 Jan 27 23:41 plistlib.py
+-rw-r--r--   1 root root  15077 Jan 27 23:41 poplib.py
+-rw-r--r--   1 root root  15627 Jan 27 23:41 posixpath.py
+-rw-r--r--   1 root root  21484 Jan 27 23:41 pprint.py
+-rwxr-xr-x   1 root root  23134 Jan 27 23:41 profile.py
+-rw-r--r--   1 root root  27317 Jan 27 23:41 pstats.py
+-rw-r--r--   1 root root   4807 Jan 27 23:41 pty.py
+-rw-r--r--   1 root root   6189 Jan 27 23:41 _py_abc.py
+drwxr-xr-x   2 root root  12288 Mar 31 13:57 __pycache__
+-rw-r--r--   1 root root  15255 Jan 27 23:41 pyclbr.py
+-rw-r--r--   1 root root   8250 Jan 27 23:41 py_compile.py
+-rw-r--r--   1 root root 228666 Jan 27 23:41 _pydecimal.py
+drwxr-xr-x   3 root root   4096 Mar 28 19:39 pydoc_data
+-rwxr-xr-x   1 root root 107603 Jan 27 23:41 pydoc.py
+-rw-r--r--   1 root root  93177 Jan 27 23:41 _pyio.py
+-rw-r--r--   1 root root  11356 Jan 27 23:41 queue.py
+-rwxr-xr-x   1 root root   7252 Jan 27 23:41 quopri.py
+-rw-r--r--   1 root root  28802 Jan 27 23:41 random.py
+-rw-r--r--   1 root root   5267 Jan 27 23:41 reprlib.py
+-rw-r--r--   1 root root  15861 Jan 27 23:41 re.py
+-rw-r--r--   1 root root   7097 Jan 27 23:41 rlcompleter.py
+-rw-r--r--   1 root root  12052 Jan 27 23:41 runpy.py
+-rw-r--r--   1 root root   6442 Jan 27 23:41 sched.py
+-rw-r--r--   1 root root   2038 Jan 27 23:41 secrets.py
+-rw-r--r--   1 root root  18561 Jan 27 23:41 selectors.py
+-rw-r--r--   1 root root   8527 Jan 27 23:41 shelve.py
+-rw-r--r--   1 root root  13325 Jan 27 23:41 shlex.py
+-rw-r--r--   1 root root  50752 Jan 27 23:41 shutil.py
+-rw-r--r--   1 root root   2273 Jan 27 23:41 signal.py
+-rw-r--r--   1 root root   3115 Jan 27 23:41 _sitebuiltins.py
+lrwxrwxrwx   1 root root     31 Jan 27 23:41 sitecustomize.py -> /etc/python3.8/sitecustomize.py
+drwxr-xr-x   3 root root   4096 Mar 31 05:41 site-packages
+-rw-r--r--   1 root root  22336 Jan 27 23:41 site.py
+-rwxr-xr-x   1 root root  34709 Jan 27 23:41 smtpd.py
+-rwxr-xr-x   1 root root  44326 Jan 27 23:41 smtplib.py
+-rw-r--r--   1 root root   7099 Jan 27 23:41 sndhdr.py
+-rw-r--r--   1 root root  35243 Jan 27 23:41 socket.py
+-rw-r--r--   1 root root  26923 Jan 27 23:41 socketserver.py
+drwxr-xr-x   4 root root   4096 Mar 29 21:47 sqlite3
+-rw-r--r--   1 root root  26695 Jan 27 23:41 sre_compile.py
+-rw-r--r--   1 root root   7154 Jan 27 23:41 sre_constants.py
+-rw-r--r--   1 root root  40230 Jan 27 23:41 sre_parse.py
+-rw-r--r--   1 root root  50760 Jan 27 23:41 ssl.py
+-rw-r--r--   1 root root  39690 Jan 27 23:41 statistics.py
+-rw-r--r--   1 root root   5485 Jan 27 23:41 stat.py
+-rw-r--r--   1 root root  12917 Jan 27 23:41 stringprep.py
+-rw-r--r--   1 root root  10535 Jan 27 23:41 string.py
+-rw-r--r--   1 root root  25268 Jan 27 23:41 _strptime.py
+-rw-r--r--   1 root root    257 Jan 27 23:41 struct.py
+-rw-r--r--   1 root root  77289 Jan 27 23:41 subprocess.py
+-rw-r--r--   1 root root  18375 Jan 27 23:41 sunau.py
+-rw-r--r--   1 root root   2109 Jan 27 23:41 symbol.py
+-rw-r--r--   1 root root   7573 Jan 27 23:41 symtable.py
+-rw-r--r--   1 root root  25932 Jan 27 23:41 _sysconfigdata_d_x86_64-linux-gnu.py
+lrwxrwxrwx   1 root root     35 Jan 27 23:41 _sysconfigdata__linux_x86_64-linux-gnu.py -> _sysconfigdata__x86_64-linux-gnu.py
+-rw-r--r--   1 root root  25739 Jan 27 23:41 _sysconfigdata__x86_64-linux-gnu.py
+-rw-r--r--   1 root root  24615 Jan 27 23:41 sysconfig.py
+-rwxr-xr-x   1 root root  11406 Jan 27 23:41 tabnanny.py
+-rwxr-xr-x   1 root root  93661 Jan 27 23:41 tarfile.py
+-rw-r--r--   1 root root  23254 Jan 27 23:41 telnetlib.py
+-rw-r--r--   1 root root  32693 Jan 27 23:41 tempfile.py
+drwxr-xr-x  26 root root  36864 Mar 29 21:47 test
+-rw-r--r--   1 root root  19407 Jan 27 23:41 textwrap.py
+-rw-r--r--   1 root root   1003 Jan 27 23:41 this.py
+-rw-r--r--   1 root root   7220 Jan 27 23:41 _threading_local.py
+-rw-r--r--   1 root root  50820 Jan 27 23:41 threading.py
+-rwxr-xr-x   1 root root  13480 Jan 27 23:41 timeit.py
+drwxr-xr-x   4 root root   4096 Mar 29 21:47 tkinter
+-rw-r--r--   1 root root  25841 Jan 27 23:41 tokenize.py
+-rw-r--r--   1 root root   2368 Jan 27 23:41 token.py
+-rw-r--r--   1 root root  23478 Jan 27 23:41 traceback.py
+-rw-r--r--   1 root root  17076 Jan 27 23:41 tracemalloc.py
+-rwxr-xr-x   1 root root  29858 Jan 27 23:41 trace.py
+-rw-r--r--   1 root root    879 Jan 27 23:41 tty.py
+-rw-r--r--   1 root root 143602 Jan 27 23:41 turtle.py
+-rw-r--r--   1 root root   9713 Jan 27 23:41 types.py
+-rw-r--r--   1 root root  68962 Jan 27 23:41 typing.py
+drwxr-xr-x   4 root root   4096 Mar 29 21:47 unittest
+drwxr-xr-x   3 root root   4096 Mar 28 19:36 urllib
+-rw-r--r--   1 root root  30394 Jan 27 23:41 uuid.py
+-rwxr-xr-x   1 root root   6957 Jan 27 23:41 uu.py
+drwxr-xr-x   4 root root   4096 Mar 28 19:39 venv
+-rw-r--r--   1 root root  19688 Jan 27 23:41 warnings.py
+-rw-r--r--   1 root root  18230 Jan 27 23:41 wave.py
+-rw-r--r--   1 root root  21387 Jan 27 23:41 weakref.py
+-rw-r--r--   1 root root   5735 Jan 27 23:41 _weakrefset.py
+-rwxr-xr-x   1 root root  24063 Jan 27 23:41 webbrowser.py
+drwxr-xr-x   3 root root   4096 Mar 28 19:39 wsgiref
+-rw-r--r--   1 root root   5913 Jan 27 23:41 xdrlib.py
+drwxr-xr-x   7 root root   4096 Mar 28 19:39 xml
+drwxr-xr-x   3 root root   4096 Mar 28 19:39 xmlrpc
+-rw-r--r--   1 root root   7535 Jan 27 23:41 zipapp.py
+-rw-r--r--   1 root root  87668 Jan 27 23:41 zipfile.py
+-rw-r--r--   1 root root  30765 Jan 27 23:41 zipimport.py
+wruslan@HPEliteBk8470p-ubstudio-20:~$ 
+
+===========================================================
+(4) /usr/lib/python3.9
+===========================================================
+wruslan@HPEliteBk8470p-ubstudio-20:~$ ls -al /usr/lib/python3.9/
+total 40
+drwxr-xr-x   6 root root  4096 Feb 10 23:33 .
+drwxr-xr-x 190 root root 20480 Mar 31 15:06 ..
+drwxr-xr-x   3 root root  4096 Feb 10 23:33 distutils
+drwxr-xr-x   4 root root  4096 Feb 10 23:33 lib2to3
+drwxr-xr-x   2 root root  4096 Feb 10 23:31 lib-dynload
+drwxr-xr-x   2 root root  4096 Feb 10 23:31 tkinter
+wruslan@HPEliteBk8470p-ubstudio-20:~$ 
+
+===========================================================
+(5) /usr/local/lib/python2.7
+===========================================================
+wruslan@HPEliteBk8470p-ubstudio-20:~$ ls -al /usr/local/lib/python2.7/
+total 16
+drwxrwsr-x 4 root staff 4096 Mar 28 19:39 .
+drwxr-xr-x 5 root root  4096 Mar 31 14:24 ..
+drwxrwsr-x 2 root staff 4096 Feb 10 23:30 dist-packages
+drwxrwsr-x 2 root staff 4096 Mar 28 19:39 site-packages
+wruslan@HPEliteBk8470p-ubstudio-20:~$ 
+
+(5.1) =====================================================
+wruslan@HPEliteBk8470p-ubstudio-20:~$ ls -al /usr/local/lib/python2.7/dist-packages/
+total 8
+drwxrwsr-x 2 root staff 4096 Feb 10 23:30 .
+drwxrwsr-x 4 root staff 4096 Mar 28 19:39 ..
+wruslan@HPEliteBk8470p-ubstudio-20:~$ 
+
+(5.2) =====================================================
+wruslan@HPEliteBk8470p-ubstudio-20:~$ ls -al /usr/local/lib/python2.7/site-packages/
+total 8
+drwxrwsr-x 2 root staff 4096 Mar 28 19:39 .
+drwxrwsr-x 4 root staff 4096 Mar 28 19:39 ..
+wruslan@HPEliteBk8470p-ubstudio-20:~$ 
+
+===========================================================
+(6) /usr/local/lib/python3.8
+===========================================================
+wruslan@HPEliteBk8470p-ubstudio-20:~$ ls -al /usr/local/lib/python3.8/
+total 12
+drwxrwsr-x   3 root staff 4096 Feb 10 23:27 .
+drwxr-xr-x   5 root root  4096 Mar 31 14:24 ..
+drwxrwsr-x 120 root staff 4096 Apr  1 06:52 dist-packages
+wruslan@HPEliteBk8470p-ubstudio-20:~$ 
+
+(6.1) =====================================================
+wruslan@HPEliteBk8470p-ubstudio-20:~$ ls -al /usr/local/lib/python3.8/dist-packages/
+total 4464
+drwxrwsr-x 120 root staff    4096 Apr  1 06:52 .
+drwxrwsr-x   3 root staff    4096 Feb 10 23:27 ..
+drwxr-sr-x   7 root staff    4096 Mar 29 21:52 absl
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 absl_py-0.12.0.dist-info
+drwxr-sr-x   3 root staff    4096 Mar 29 21:52 astunparse
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 astunparse-1.6.3.dist-info
+drwxr-sr-x   3 root staff    4096 Mar 29 21:52 cachetools
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 cachetools-4.2.1.dist-info
+drwxr-sr-x  11 root staff    4096 Apr  1 06:52 caffe2
+drwxr-sr-x   4 root staff    4096 Mar 29 20:37 coloredlogs
+drwxr-sr-x   2 root staff    4096 Mar 29 20:37 coloredlogs-15.0.dist-info
+-rw-r--r--   1 root staff     147 Mar 29 20:37 coloredlogs.pth
+drwxr-sr-x   5 root staff    4096 Mar 29 20:37 cv2
+drwxr-sr-x  13 root staff    4096 Mar 29 20:43 Cython
+drwxr-sr-x   2 root staff    4096 Mar 29 20:43 Cython-0.29.22.dist-info
+-rw-r--r--   1 root staff     520 Mar 29 20:43 cython.py
+drwxr-sr-x   2 root staff    4096 Mar 29 20:39 decorator-4.4.2.dist-info
+-rw-r--r--   1 root staff   17222 Mar 29 20:39 decorator.py
+drwxr-sr-x   3 root staff    4096 Mar 29 21:53 docs
+-rw-r--r--   1 root staff     172 Apr  1 06:45 easy-install.pth
+drwxr-sr-x   3 root staff    4096 Mar 29 21:52 flatbuffers
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 flatbuffers-1.12.dist-info
+drwxr-sr-x   3 root staff    4096 Mar 29 21:52 gast
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 gast-0.3.3.dist-info
+drwxr-sr-x   5 root staff    4096 Mar 29 21:52 google
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 google_auth-1.28.0.dist-info
+-rw-r--r--   1 root staff     539 Mar 29 21:52 google_auth-1.28.0-py3.9-nspkg.pth
+drwxr-sr-x   4 root staff    4096 Mar 29 21:52 google_auth_oauthlib
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 google_auth_oauthlib-0.4.3.dist-info
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 google_pasta-0.2.0.dist-info
+drwxr-sr-x   8 root staff    4096 Mar 29 21:52 grpc
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 grpcio-1.32.0.dist-info
+drwxr-sr-x   6 root staff    4096 Mar 29 21:52 h5py
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 h5py-2.10.0.dist-info
+drwxr-sr-x   4 root staff    4096 Apr  1 06:09 h5py-3.2.1-py3.8-linux-x86_64.egg
+drwxr-sr-x   4 root staff    4096 Mar 29 20:37 humanfriendly
+drwxr-sr-x   2 root staff    4096 Mar 29 20:37 humanfriendly-9.1.dist-info
+drwxr-sr-x   6 root staff    4096 Mar 29 20:39 imageio
+drwxr-sr-x   2 root staff    4096 Mar 29 20:39 imageio-2.9.0.dist-info
+drwxr-sr-x   2 root staff    4096 Mar 29 20:37 img2pdf-0.4.0.dist-info
+-rw-r--r--   1 root staff  129665 Mar 29 20:37 img2pdf.py
+drwxr-sr-x   7 root staff    4096 Mar 29 20:37 imutils
+drwxr-sr-x   2 root staff    4096 Mar 29 20:37 imutils-0.5.4.dist-info
+drwxr-sr-x   5 root staff    4096 Mar 29 21:52 joblib
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 joblib-1.0.1.dist-info
+-rw-r--r--   1 root staff    4484 Mar 29 20:37 jp2.py
+drwxr-sr-x  11 root staff    4096 Mar 29 21:53 keras
+drwxr-sr-x   2 root staff    4096 Mar 29 21:53 Keras-2.4.3.dist-info
+drwxr-sr-x   4 root staff    4096 Mar 29 21:52 keras_preprocessing
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 Keras_Preprocessing-1.1.2.dist-info
+drwxr-sr-x   6 root staff    4096 Apr  1 06:45 matplotlib-3.4.1.post258+g7ce970e1c-py3.8-linux-x86_64.egg
+drwxr-sr-x  12 root staff    4096 Mar 29 20:39 networkx
+drwxr-sr-x   2 root staff    4096 Mar 29 20:39 networkx-2.5.dist-info
+drwxr-sr-x  17 root staff    4096 Mar 29 21:52 numpy
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 numpy-1.19.5.dist-info
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 numpy.libs
+drwxr-sr-x   9 root staff    4096 Mar 29 20:37 ocrmypdf
+drwxr-sr-x   2 root staff    4096 Mar 29 20:37 ocrmypdf-11.7.3.dist-info
+drwxr-sr-x   2 root staff    4096 Mar 29 20:37 opencv_python-4.5.1.48.dist-info
+drwxr-sr-x   2 root staff    4096 Mar 29 20:37 opencv_python.libs
+drwxr-sr-x   5 root staff    4096 Mar 29 21:52 opt_einsum
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 opt_einsum-3.3.0.dist-info
+drwxr-sr-x  15 root staff    4096 Mar 29 21:52 pandas
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 pandas-1.2.3.dist-info
+drwxr-sr-x   5 root staff    4096 Mar 29 21:52 pasta
+drwxr-sr-x   4 root staff    4096 Mar 29 20:37 pdfminer
+drwxr-sr-x   2 root staff    4096 Mar 29 20:37 pdfminer.six-20201018.dist-info
+drwxr-sr-x   4 root staff    4096 Mar 29 20:37 pikepdf
+drwxr-sr-x   2 root staff    4096 Mar 29 20:37 pikepdf-2.9.2.dist-info
+drwxr-sr-x   2 root staff    4096 Mar 29 20:37 pikepdf.libs
+drwxr-sr-x   5 root staff    4096 Mar 29 20:34 pip
+drwxr-sr-x   2 root staff    4096 Mar 29 20:34 pip-21.0.1.dist-info
+drwxr-sr-x   3 root staff    4096 Mar 29 20:37 pluggy
+drwxr-sr-x   2 root staff    4096 Mar 29 20:37 pluggy-0.13.1.dist-info
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 protobuf-3.15.6.dist-info
+-rw-r--r--   1 root staff     539 Mar 29 21:52 protobuf-3.15.6-py3.8-nspkg.pth
+drwxr-sr-x   6 root staff    4096 Mar 29 21:52 pyasn1
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 pyasn1-0.4.8.dist-info
+drwxr-sr-x   3 root staff    4096 Mar 29 21:52 pyasn1_modules
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 pyasn1_modules-0.2.8.dist-info
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 __pycache__
+drwxr-sr-x   3 root staff    4096 Mar 29 20:37 PyPDF2
+drwxr-sr-x   2 root staff    4096 Mar 29 20:37 PyPDF2-1.26.0.dist-info
+drwxr-sr-x   2 root staff    4096 Mar 29 20:39 PyWavelets-1.1.1.dist-info
+drwxr-sr-x   6 root staff    4096 Mar 29 20:39 pywt
+drwxr-sr-x   3 root staff    4096 Mar 29 20:43 pyximport
+drwxr-sr-x   4 root staff    4096 Mar 29 21:52 requests_oauthlib
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 requests_oauthlib-1.3.0.dist-info
+drwxr-sr-x   3 root staff    4096 Mar 29 21:52 rsa
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 rsa-4.7.2.dist-info
+drwxr-sr-x   2 root staff    4096 Mar 29 20:39 scikit_image-0.18.1.dist-info
+drwxr-sr-x   2 root staff    4096 Mar 29 20:39 scikit_image.libs
+drwxr-sr-x   2 root staff    4096 Mar 29 21:53 scikit_learn-0.24.1.dist-info
+drwxr-sr-x   2 root staff    4096 Mar 29 21:53 scikit_learn.libs
+drwxr-sr-x  22 root staff    4096 Mar 29 20:39 scipy
+drwxr-sr-x   2 root staff    4096 Mar 29 20:39 scipy-1.6.2.dist-info
+drwxr-sr-x   2 root staff    4096 Mar 29 20:39 scipy.libs
+drwxr-sr-x   6 root staff    4096 Mar 29 21:53 seaborn
+drwxr-sr-x   2 root staff    4096 Mar 29 21:53 seaborn-0.11.1.dist-info
+-rw-r--r--   1 root staff      31 Apr  1 06:45 setuptools.pth
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 six-1.15.0.dist-info
+-rw-r--r--   1 root staff   34159 Mar 29 21:52 six.py
+drwxr-sr-x  23 root staff    4096 Mar 29 20:39 skimage
+drwxr-sr-x  33 root staff    4096 Mar 29 21:53 sklearn
+drwxr-sr-x  11 root staff    4096 Mar 29 21:52 tensorboard
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 tensorboard-2.4.1.dist-info
+drwxr-sr-x   6 root staff    4096 Mar 29 21:52 tensorboard_plugin_wit
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 tensorboard_plugin_wit-1.8.0.dist-info
+drwxr-sr-x  12 root staff    4096 Mar 29 21:52 tensorflow
+drwxr-sr-x   2 root staff    4096 Mar 29 21:53 tensorflow-2.4.1.dist-info
+drwxr-sr-x   5 root staff    4096 Mar 29 21:52 tensorflow_estimator
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 tensorflow_estimator-2.4.0.dist-info
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 termcolor-1.1.0.dist-info
+-rw-r--r--   1 root staff    5044 Mar 29 21:52 termcolor.py
+drwxr-sr-x   2 root staff    4096 Mar 29 20:35 tesserocr-2.5.1.dist-info
+-rwxr-xr-x   1 root staff 3729232 Mar 29 20:35 tesserocr.cpython-38-x86_64-linux-gnu.so
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 threadpoolctl-2.1.0.dist-info
+-rw-r--r--   1 root staff   30647 Mar 29 21:52 threadpoolctl.py
+drwxr-sr-x   3 root staff    4096 Mar 29 20:39 tifffile
+drwxr-sr-x   2 root staff    4096 Mar 29 20:39 tifffile-2021.3.17.dist-info
+drwxr-sr-x  30 root staff    4096 Apr  1 06:52 torch
+drwxr-sr-x   2 root staff    4096 Apr  1 06:52 torch-1.8.1.dist-info
+drwxr-sr-x   5 root staff    4096 Apr  1 06:52 torchvision
+drwxr-sr-x   2 root staff    4096 Apr  1 06:52 torch_vision-0.1.6.dev0.dist-info
+drwxr-sr-x   4 root staff    4096 Mar 29 20:37 tqdm
+drwxr-sr-x   2 root staff    4096 Mar 29 20:37 tqdm-4.59.0.dist-info
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 typing_extensions-3.7.4.3.dist-info
+-rw-r--r--   1 root staff   83727 Mar 29 21:52 typing_extensions.py
+drwxr-sr-x   6 root staff    4096 Mar 29 21:52 werkzeug
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 Werkzeug-1.0.1.dist-info
+drwxr-sr-x   5 root staff    4096 Mar 29 21:52 wheel
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 wheel-0.36.2.dist-info
+drwxr-sr-x   3 root staff    4096 Mar 29 21:52 wrapt
+drwxr-sr-x   2 root staff    4096 Mar 29 21:52 wrapt-1.12.1.dist-info
+wruslan@HPEliteBk8470p-ubstudio-20:~$ 
+
+===========================================================
+ALHAMDULILLAH 3 TIMES WRY.
+===========================================================
+
